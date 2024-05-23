@@ -2,6 +2,7 @@
 "use client"
 import React, { useState, useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
 import Spinner from './Spinner';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
@@ -28,7 +29,7 @@ const Map: React.FC<MapProps> = ({ resorts }) => {
       container: mapContainerRef.current,
       style: 'mapbox://styles/mapbox/streets-v11',
       center: [resorts[0].longitude, resorts[0].latitude],
-      zoom: 10,
+      zoom: 5,
     });
 
     map.on('load', () => {
@@ -59,7 +60,7 @@ const Map: React.FC<MapProps> = ({ resorts }) => {
       {loading && (
         <Spinner />
       )}
-      <div className="map-container invisible overflow-hidden" ref={mapContainerRef} style={{ height: '500px', width: '100%' }} ></div>
+      <div className="map-container invisible overflow-hidden rounded-md" ref={mapContainerRef} style={{ height: '500px', width: '100%' }} ></div>
     </>
   );
 };
