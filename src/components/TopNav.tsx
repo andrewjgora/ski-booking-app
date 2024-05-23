@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export function TopNav({}) {
   return (
-    <header className="fixed navbar bg-base-100">
+    <header className="sticky top-0 navbar bg-base-100">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl">
           <Image
