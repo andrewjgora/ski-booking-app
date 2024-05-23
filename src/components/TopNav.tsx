@@ -5,7 +5,15 @@ export function TopNav({}) {
   return (
     <header className="fixed navbar bg-base-100">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-xl">
+          <Image
+            alt="Logo"
+            src='/logo-transparent.png'
+            width={50}
+            height={50}
+          />
+          SlopeFinder
+        </a>
       </div>
       <div className="flex-none gap-2">
         <div className="form-control">

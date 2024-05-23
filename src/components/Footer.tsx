@@ -4,7 +4,7 @@ export function Footer({}) {
     <footer className="footer p-10 bg-base-300 text-base-content">
       <nav>
         <h6 className="footer-title">Services</h6>
-        <a className="link link-hover">Lift Booking</a>
+        <a className="link link-hover">Lift Tickets</a>
         <a className="link link-hover">Accommodations</a>
         <a className="link link-hover">Backcountry Tours</a>
       </nav>
