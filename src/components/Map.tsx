@@ -65,7 +65,6 @@ const Map: React.FC<MapProps> = ({ resorts }) => {
 
   return (
     <>
-    {console.log('map component render')}
       {loading && (
         <Spinner />
       )}
