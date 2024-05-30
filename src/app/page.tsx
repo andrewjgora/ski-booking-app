@@ -1,14 +1,19 @@
+"use client";
 import Map from "@/components/Map";
 import React from 'react';
-import { getResorts } from '../lib/api';
+import { useResorts } from "@/context/ResortsContext";
+import Spinner from "@/components/Spinner";
 
 
-export default async function Dashboard() {
-  const resorts = await getResorts();
+export default function Dashboard() {
+  const { resorts, loading } = useResorts();
+
+
+  if(loading) return <Spinner />;
 
   return (
-    <main className="flex min-h-max flex-col items-center justify-between p-24">
-      <Map resorts={resorts}></Map>
+    <main className="flex min-h-max flex-col items-center justify-between">
+      {loading ? <Spinner /> : <Map resorts={resorts}></Map> }
     </main>
   );
 }
