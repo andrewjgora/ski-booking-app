@@ -9,10 +9,8 @@ export default function Dashboard() {
   const { resorts, loading } = useResorts();
 
 
-  if(loading) return <Spinner />;
-
   return (
-    <main className="flex min-h-max flex-col items-center justify-between">
+    <main className="h-full flex flex-col items-center">
       {loading ? <Spinner /> : <Map resorts={resorts}></Map> }
     </main>
   );
