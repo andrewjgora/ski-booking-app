@@ -3,26 +3,26 @@
 import React, { useState, useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import Spinner from './Spinner';
-import { Resort } from '@/types/resorts';
+import { Resort, UserLocation } from '@/types/resorts';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
 
 interface MapProps {
   resorts: Resort[];
+  userLocation: UserLocation;
 }
 
-const Map = ({ resorts }: MapProps) => {
+const Map = ({ resorts, userLocation }: MapProps) => {
+  // console.log('MAP resorts:', resorts)
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
-  const [lng, setLng] = useState(resorts[0].longitude);
-  const [lat, setLat] = useState(resorts[0].latitude);
+  const [lng, setLng] = useState(resorts[0]?.longitude ?? userLocation.longitude);
+  const [lat, setLat] = useState(resorts[0]?.latitude ?? userLocation.latitude);
   const [zoom, setZoom] = useState(5);
-  // const [loading, setLoading] = useState(true);
 
 
   useEffect(() => {
-    if (mapRef.current || !mapContainerRef.current || resorts.length === 0) return;
+    if (mapRef.current || !mapContainerRef.current) return;
 
     // Instantiate a new Mapbox map
       mapRef.current = new mapboxgl.Map({
@@ -40,7 +40,7 @@ const Map = ({ resorts }: MapProps) => {
       });
 
       mapRef.current.on('load', (e) => {
-        // setLoading(false);
+        mapRef.current!.resize();
       });
 
       // Add navigation control (the +/- zoom buttons)
@@ -60,13 +60,11 @@ const Map = ({ resorts }: MapProps) => {
 
   return (
     <>
-      {/* {loading && (
-        <Spinner />
-      )} */}
-      <div className="sidebar w-1/2 absolute z-10 bg-slate-700 text-center text-slate-200 rounded-sm mt-2">
-        Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
+      <div className="sidebar w-7/12 absolute z-10 bg-slate-800 text-center text-slate-200 rounded-md mt-2 opacity-80 select-none py-2 whitespace-nowrap">
+        <p>Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}</p>
+        <p>Displaying {resorts.length} {resorts.length === 1 ? 'result' : 'results'}</p>
       </div>
-      <div className="map-container overflow-hidden rounded-md" ref={mapContainerRef} style={{ height: '500px', width: '100%' }} ></div>
+      <div className="map-container overflow-hidden rounded-md !h-full" ref={mapContainerRef} style={{ height: '100%', width: '100%' }} ></div>
     </>
   );
 };

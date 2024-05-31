@@ -7,3 +7,8 @@ export interface Resort {
   longitude: number;
   latitude: number;
 }
+
+export interface UserLocation {
+  latitude: number;
+  longitude: number;
+}
