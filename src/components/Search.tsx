@@ -4,7 +4,7 @@ import React, { ChangeEvent, useState } from "react";
 import { useResorts } from "@/context/ResortsContext";
 
 
-export const Search = () => {
+export const Search = ({...props}) => {
   const [query, setQuery] = useState('');
   const { handleSearch } = useResorts();
 
@@ -15,17 +15,17 @@ export const Search = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     handleSearch(query);
-    console.log('searching for:', query)
+    console.log('searching for:', query);
   };
 
   return (
-    <form className="form-control" onSubmit={handleSubmit}>
+    <form className={`${props.className} form-control`} onSubmit={handleSubmit}>
       <input
         type="text"
         value={query}
         onChange={handleChange}
         placeholder="Search"
-        className="input input-bordered w-24 md:w-auto"
+        className="input input-bordered"
       />
     </form>
   );

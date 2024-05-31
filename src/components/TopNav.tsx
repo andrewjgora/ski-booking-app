@@ -16,9 +16,9 @@ export function TopNav({}) {
           SlopeFinder
         </a>
       </div>
-      <div className="flex-none gap-2">
-        <Search />
-        <div className="dropdown dropdown-end">
+      <div className="w-5/12 h-full flex-none gap-2">
+        <Search className="w-full h-4/5"/>
+        {/* <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
             <div className="w-10 rounded-full">
               <Image alt="Tailwind CSS Navbar component" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" width={40} height={40} />
@@ -34,7 +34,7 @@ export function TopNav({}) {
             <li><a>Settings</a></li>
             <li><a>Logout</a></li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </header>
   );
