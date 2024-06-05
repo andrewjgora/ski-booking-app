@@ -39,6 +39,14 @@ const Map = ({ resorts, userLocation }: MapProps) => {
         setZoom(parseFloat(mapRef.current!.getZoom().toFixed(2)));
       });
 
+      mapRef.current.on('moveend', () => {
+        const bounds = mapRef.current!.getBounds();
+        const ne = bounds.getNorthEast();
+        const sw = bounds.getSouthWest();
+
+        // fetchResortsInBounds(sw.lng, sw.lat, ne.lng, ne.lat);
+      });
+
       mapRef.current.on('load', (e) => {
         mapRef.current!.resize();
       });
@@ -60,11 +68,11 @@ const Map = ({ resorts, userLocation }: MapProps) => {
 
   return (
     <>
-      <div className="sidebar w-7/12 absolute z-10 bg-slate-800 text-center text-slate-200 rounded-md mt-2 opacity-80 select-none py-2 whitespace-nowrap">
+      <div className="sidebar w-7/12 absolute z-10 bg-slate-800 text-center text-slate-200 rounded-md mt-2 opacity-80 select-none py-2 lg:whitespace-nowrap">
         <p>Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}</p>
         <p>Displaying {resorts.length} {resorts.length === 1 ? 'result' : 'results'}</p>
       </div>
-      <div className="map-container overflow-hidden rounded-md !h-full" ref={mapContainerRef} style={{ height: '100%', width: '100%' }} ></div>
+      <div className="map-container !h-full" ref={mapContainerRef} style={{ height: '100%', width: '100%' }} ></div>
     </>
   );
 };
