@@ -1,0 +1,3722 @@
+[
+    {
+        "name": "Mohawk Mountain Ski Area",
+        "location": "Cornwall, Litchfield County, Connecticut, United States",
+        "description": "",
+        "longitude": "73.31342",
+        "latitude": "41.83675",
+        "website": "http://www.mohawkmtn.com/"
+    },
+    {
+        "name": "Mount Southington",
+        "location": "Mount Southington, Plantsville, Connecticut",
+        "description": "",
+        "longitude": "72.92587",
+        "latitude": "41.58235",
+        "website": "http://www.mountsouthington.com"
+    },
+    {
+        "name": "Powder Ridge Ski Area",
+        "location": "Besek Mountain",
+        "description": "",
+        "longitude": "72.737172",
+        "latitude": "41.502006",
+        "website": "http://powderridgepark.com/"
+    },
+    {
+        "name": "Ski Sundown",
+        "location": "New Hartford, Connecticut, US",
+        "description": "",
+        "longitude": "72.737172",
+        "latitude": "41.502006",
+        "website": "http://www.skisundown.com/"
+    },
+    {
+        "name": "Baker Mountain",
+        "location": "Moscow, Maine, United States",
+        "description": "",
+        "longitude": "69.90556",
+        "latitude": "45.08472",
+        "website": "TODO"
+    },
+    {
+        "name": "Big Rock",
+        "location": "Mars Hill, Maine, United States",
+        "description": "",
+        "longitude": "67.82778",
+        "latitude": "46.52222",
+        "website": "http://www.bigrockmaine.com/"
+    },
+    {
+        "name": "Big Moose",
+        "location": "Piscataquis County, Maine, U.S.",
+        "description": "",
+        "longitude": "69.711667",
+        "latitude": "45.484167",
+        "website": "TODO"
+    },
+    {
+        "name": "Black Mountain of Maine",
+        "location": "Rumford, Maine, U.S.",
+        "description": "",
+        "longitude": "70.61750",
+        "latitude": "44.58000",
+        "website": "http://www.skiblackmountain.org"
+    },
+    {
+        "name": "Camden Snow Bowl",
+        "location": "Ragged Mountain",
+        "description": "",
+        "longitude": "69.134667",
+        "latitude": "44.217216",
+        "website": "http://www.camdensnowbowl.com/"
+    },
+    {
+        "name": "Eaton Mountain",
+        "location": "Skowhegan, Maine, United States",
+        "description": "",
+        "longitude": "69.61944",
+        "latitude": "44.76806",
+        "website": "TODO"
+    },
+    {
+        "name": "Hermon Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "69.61944",
+        "latitude": "44.76806",
+        "website": "TODO"
+    },
+    {
+        "name": "Lonesome Pine Trails",
+        "location": "TODO",
+        "description": "",
+        "longitude": "69.61944",
+        "latitude": "44.76806",
+        "website": "TODO"
+    },
+    {
+        "name": "Lost Valley",
+        "location": "200 Lost Valley Rd.Auburn, Maine, U.S.",
+        "description": "",
+        "longitude": "70.281",
+        "latitude": "44.136",
+        "website": "http://www.lostvalleyski.com/index.html"
+    },
+    {
+        "name": "Mount Abram",
+        "location": "Greenwood, Maine, United States",
+        "description": "",
+        "longitude": "70.70694",
+        "latitude": "44.37917",
+        "website": "http://www.mtabram.com"
+    },
+    {
+        "name": "Mount Jefferson Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "70.70694",
+        "latitude": "44.37917",
+        "website": "TODO"
+    },
+    {
+        "name": "Pinnacle Ski Club",
+        "location": "",
+        "description": "",
+        "longitude": 0,
+        "latitude": 0
+    },
+    {
+        "name": "Pleasant Mountain",
+        "location": "Bridgton, Maine, US",
+        "description": "",
+        "longitude": "70.81528",
+        "latitude": "44.05833",
+        "website": "http://www.pleasantmountain.com"
+    },
+    {
+        "name": "Powderhouse Hill",
+        "location": "South Berwick, Maine, United States",
+        "description": "",
+        "longitude": "70.80222",
+        "latitude": "43.23694",
+        "website": "http://www.powderhousehill.com/"
+    },
+    {
+        "name": "Quoggy Jo",
+        "location": "TODO",
+        "description": "",
+        "longitude": "70.80222",
+        "latitude": "43.23694",
+        "website": "TODO"
+    },
+    {
+        "name": "Saddleback Maine",
+        "location": "Sandy River Plantation, Maine, U.S.",
+        "description": "",
+        "longitude": "70.50306",
+        "latitude": "44.93667",
+        "website": "http://www.saddlebackmaine.com"
+    },
+    {
+        "name": "Sugarloaf",
+        "location": "Carrabassett Valley,Franklin County, Maine\u00a0United States",
+        "description": "",
+        "longitude": "70.31306",
+        "latitude": "45.03139",
+        "website": "http://www.sugarloaf.com/"
+    },
+    {
+        "name": "Sunday River",
+        "location": "Newry, Maine, United States",
+        "description": "",
+        "longitude": "70.8569",
+        "latitude": "44.4734",
+        "website": "http://www.sundayriver.com/"
+    },
+    {
+        "name": "Titcomb Mountain",
+        "location": "Farmington, Maine, United States",
+        "description": "",
+        "longitude": "70.17083",
+        "latitude": "44.65000",
+        "website": "http://www.titcombmountain.com/"
+    },
+    {
+        "name": "Berkshire East Ski Resort",
+        "location": "Charlemont / Hawley, Massachusetts, U.S.",
+        "description": "",
+        "longitude": "72.87694",
+        "latitude": "42.62083",
+        "website": "http://www.berkshireeast.com/"
+    },
+    {
+        "name": "Blue Hills Ski Area",
+        "location": "Canton, MA",
+        "description": "",
+        "longitude": "71.11917",
+        "latitude": "42.21528",
+        "website": "https://www.bluehillsboston.com/"
+    },
+    {
+        "name": "Bousquet Ski Area",
+        "location": "101 Dan Fox Dr Pittsfield, Massachusetts, 01201",
+        "description": "",
+        "longitude": "73.2788",
+        "latitude": "42.4171",
+        "website": "https://bousquetmountain.com/"
+    },
+    {
+        "name": "Butternut",
+        "location": "Great Barrington, Massachusetts, US",
+        "description": "",
+        "longitude": "73.31694",
+        "latitude": "42.17806",
+        "website": "http://www.skibutternut.com"
+    },
+    {
+        "name": "Easton Ski Area at Eaglebrook School (private)",
+        "location": "Deerfield, Massachusetts, US",
+        "description": "",
+        "longitude": "73.31694",
+        "latitude": "42.17806",
+        "website": "http://www.eaglebrook.org/"
+    },
+    {
+        "name": "Jiminy Peak",
+        "location": "Hancock, Massachusetts, United States",
+        "description": "",
+        "longitude": "73.29083",
+        "latitude": "42.55083",
+        "website": "http://jiminypeak.com/"
+    },
+    {
+        "name": "Mount Greylock Ski Club",
+        "location": "TODO",
+        "description": "",
+        "longitude": "73.29083",
+        "latitude": "42.55083",
+        "website": "TODO"
+    },
+    {
+        "name": "Nashoba Valley Ski Area",
+        "location": "Westford, Massachusetts, US",
+        "description": "",
+        "longitude": "71.4441028",
+        "latitude": "42.5419750",
+        "website": "http://www.skinashoba.com/"
+    },
+    {
+        "name": "Otis Ridge",
+        "location": "159 Monterey Rd, Otis, Massachusetts",
+        "description": "",
+        "longitude": "73.0988",
+        "latitude": "42.1964",
+        "website": "https://otisridge.com/"
+    },
+    {
+        "name": "Ski Bradford",
+        "location": "Bradford, Massachusetts, US",
+        "description": "",
+        "longitude": "73.0988",
+        "latitude": "42.1964",
+        "website": "http://skibradford.com/"
+    },
+    {
+        "name": "Ski Ward",
+        "location": "Shrewsbury, Massachusetts, US",
+        "description": "",
+        "longitude": "71.67500",
+        "latitude": "42.30556",
+        "website": "http://www.skiward.com/"
+    },
+    {
+        "name": "Wachusett Mountain",
+        "location": "Princeton, Massachusetts",
+        "description": "",
+        "longitude": "71.88639",
+        "latitude": "42.49944",
+        "website": "http://www.wachusett.com"
+    },
+    {
+        "name": "Abenaki Ski Area",
+        "location": "",
+        "description": "",
+        "longitude": 0,
+        "latitude": 0
+    },
+    {
+        "name": "Arrowhead",
+        "location": "Claremont, New Hampshire, USA",
+        "description": "",
+        "longitude": "72.33333",
+        "latitude": "43.36278",
+        "website": "http://www.arrowheadnh.com"
+    },
+    {
+        "name": "Attitash",
+        "location": "Bartlett, New Hampshire, US",
+        "description": "",
+        "longitude": "71.22972",
+        "latitude": "44.08222",
+        "website": "http://www.attitash.com"
+    },
+    {
+        "name": "Black Mountain",
+        "location": "Jackson, New Hampshire, U.S.",
+        "description": "",
+        "longitude": "71.16444",
+        "latitude": "44.16833",
+        "website": "http://www.blackmt.com/"
+    },
+    {
+        "name": "Bretton Woods",
+        "location": "Bretton Woods, New Hampshire, USA",
+        "description": "",
+        "longitude": "71.46222",
+        "latitude": "44.25972",
+        "website": "http://brettonwoods.com"
+    },
+    {
+        "name": "Cannon Mountain",
+        "location": "Franconia,New Hampshire,\u00a0United States",
+        "description": "",
+        "longitude": "71.69889",
+        "latitude": "44.15778",
+        "website": "http://www.cannonmt.com"
+    },
+    {
+        "name": "Campton Mountain",
+        "location": "",
+        "description": "",
+        "longitude": 0,
+        "latitude": 0
+    },
+    {
+        "name": "Cranmore Mountain Resort",
+        "location": "North Conway, New Hampshire, US",
+        "description": "",
+        "longitude": "71.69889",
+        "latitude": "44.15778",
+        "website": "http://www.cranmore.com/"
+    },
+    {
+        "name": "Crotched Mountain",
+        "location": "Hillsborough County, New Hampshire, U.S.",
+        "description": "",
+        "longitude": "71.873712297",
+        "latitude": "42.998294108",
+        "website": "TODO"
+    },
+    {
+        "name": "Dartmouth Skiway",
+        "location": "Holt's Ledge and Winslow\u00a0Ledge  Lyme, New Hampshire, U.S.",
+        "description": "",
+        "longitude": "72.43389",
+        "latitude": "43.78667",
+        "website": "http://skiway.dartmouth.edu"
+    },
+    {
+        "name": "Franklin Veterans Memorial Recreation Area",
+        "location": "",
+        "description": "",
+        "longitude": 0,
+        "latitude": 0
+    },
+    {
+        "name": "Granite Gorge",
+        "location": "Roxbury, New Hampshire, USA",
+        "description": "",
+        "longitude": "72.21222",
+        "latitude": "42.97083",
+        "website": "http://granitegorge.com"
+    },
+    {
+        "name": "Gunstock Mountain Resort",
+        "location": "Gilford, New Hampshire, USA",
+        "description": "",
+        "longitude": "71.36750",
+        "latitude": "43.54139",
+        "website": "http://www.gunstock.com"
+    },
+    {
+        "name": "Kanc Rec Area",
+        "location": "",
+        "description": "",
+        "longitude": 0,
+        "latitude": 0
+    },
+    {
+        "name": "King Pine",
+        "location": "Madison, New Hampshire, US",
+        "description": "",
+        "longitude": "71.08944",
+        "latitude": "43.87139",
+        "website": "http://www.kingpine.com/"
+    },
+    {
+        "name": "Loon Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "71.62144",
+        "latitude": "44.03597",
+        "website": "TODO"
+    },
+    {
+        "name": "McIntyre Ski Area",
+        "location": "Manchester, New Hampshire, USA",
+        "description": "",
+        "longitude": "71.44000",
+        "latitude": "43.00500",
+        "website": "http://www.mcintyreskiarea.com"
+    },
+    {
+        "name": "Mount Eustis",
+        "location": "",
+        "description": "",
+        "longitude": 0,
+        "latitude": 0
+    },
+    {
+        "name": "Mount Prospect",
+        "location": "Lancaster, New Hampshire, U.S.",
+        "description": "",
+        "longitude": "71.5769",
+        "latitude": "44.4572",
+        "website": "https://www.mountprospectskitow.com"
+    },
+    {
+        "name": "Mount Sunapee Resort",
+        "location": "Newbury, New Hampshire",
+        "description": "",
+        "longitude": "71.5769",
+        "latitude": "44.4572",
+        "website": "http://www.mountsunapee.com"
+    },
+    {
+        "name": "Pats Peak",
+        "location": "Henniker, New Hampshire, U.S.",
+        "description": "",
+        "longitude": "71.79583",
+        "latitude": "43.16333",
+        "website": "http://www.patspeak.com"
+    },
+    {
+        "name": "Ragged Mountain",
+        "location": "Danbury, New Hampshire, USA",
+        "description": "",
+        "longitude": "71.84222",
+        "latitude": "43.48444",
+        "website": "http://www.raggedmountainresort.com/"
+    },
+    {
+        "name": "Red Hill Ski Club",
+        "location": "",
+        "description": "",
+        "longitude": 0,
+        "latitude": 0
+    },
+    {
+        "name": "Storrs Hill",
+        "location": "",
+        "description": "",
+        "longitude": 0,
+        "latitude": 0
+    },
+    {
+        "name": "Tenney Mountain Ski Resort",
+        "location": "Plymouth / Groton, Grafton County, New Hampshire",
+        "description": "",
+        "longitude": "71.78361",
+        "latitude": "43.73778",
+        "website": "http://www.skitenney.com"
+    },
+    {
+        "name": "The Balsams Wilderness",
+        "location": "TODO",
+        "description": "",
+        "longitude": "71.78361",
+        "latitude": "43.73778",
+        "website": "TODO"
+    },
+    {
+        "name": "Waterville Valley Resort",
+        "location": "Waterville Valley,New Hampshire, U.S.",
+        "description": "",
+        "longitude": "71.52778",
+        "latitude": "43.96528",
+        "website": "http://www.waterville.com"
+    },
+    {
+        "name": "Whaleback",
+        "location": "TODO",
+        "description": "",
+        "longitude": "71.52778",
+        "latitude": "43.96528",
+        "website": "http://www.whaleback.com/"
+    },
+    {
+        "name": "Wildcat Mountain",
+        "location": "Pinkham's Grant, New Hampshire\u00a0United States",
+        "description": "",
+        "longitude": "71.23833",
+        "latitude": "44.26306",
+        "website": "http://www.skiwildcat.com"
+    },
+    {
+        "name": "Yawgoo Valley",
+        "location": "160 Yawgoo Valley Road, Exeter, Rhode Island 02822 U.S.",
+        "description": "",
+        "longitude": "71.23833",
+        "latitude": "44.26306",
+        "website": "http://www.yawgoo.com"
+    },
+    {
+        "name": "Ascutney Outdoors",
+        "location": "TODO",
+        "description": "",
+        "longitude": "72.47083",
+        "latitude": "43.46861",
+        "website": "http://www.westwindsorvt.govoffice2.com"
+    },
+    {
+        "name": "Bellows Falls Ski Tow",
+        "location": "TODO",
+        "description": "",
+        "longitude": "72.44389",
+        "latitude": "43.13333",
+        "website": "https://www.rockinghamvt.org/"
+    },
+    {
+        "name": "Bolton Valley Resort",
+        "location": "Bolton, Vermont, U.S.",
+        "description": "",
+        "longitude": "72.849998",
+        "latitude": "44.419621",
+        "website": "http://www.boltonvalley.com/"
+    },
+    {
+        "name": "Bromley Mountain",
+        "location": "Peru, Vermont, USA",
+        "description": "",
+        "longitude": "72.93861",
+        "latitude": "43.22778",
+        "website": "TODO"
+    },
+    {
+        "name": "Burke Mountain",
+        "location": " Northeast Kingdom, Vermont, U.S. ",
+        "description": "",
+        "longitude": "71.89317",
+        "latitude": "44.57083",
+        "website": "TODO"
+    },
+    {
+        "name": "Cochran's Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "71.89317",
+        "latitude": "44.57083",
+        "website": "TODO"
+    },
+    {
+        "name": "Harrington Hill",
+        "location": "TODO",
+        "description": "",
+        "longitude": "72.37722",
+        "latitude": "43.86583",
+        "website": "TODO"
+    },
+    {
+        "name": "Hard 'Ack",
+        "location": "TODO",
+        "description": "",
+        "longitude": "73.15222",
+        "latitude": "44.81028",
+        "website": "http://www.stalbanstown.com"
+    },
+    {
+        "name": "Haystack Mountain",
+        "location": "Wilmington, Vermont, US",
+        "description": "",
+        "longitude": "72.8945694",
+        "latitude": "42.9226028",
+        "website": "http://www.hermitageclub.com/"
+    },
+    {
+        "name": "Jay Peak Resort",
+        "location": "Jay, Vermont",
+        "description": "",
+        "longitude": "72.53222",
+        "latitude": "44.92944",
+        "website": "http://www.jaypeakresort.com/"
+    },
+    {
+        "name": "Killington Ski Resort",
+        "location": "Killington, Vermont, U.S.",
+        "description": "",
+        "longitude": "72.798",
+        "latitude": "43.626",
+        "website": "http://www.killington.com/"
+    },
+    {
+        "name": "Living Memorial Park",
+        "location": "TODO",
+        "description": "",
+        "longitude": "72.58222",
+        "latitude": "42.85000",
+        "website": "TODO"
+    },
+    {
+        "name": "Lyndon Outing Club",
+        "location": "TODO",
+        "description": "",
+        "longitude": "72.00528",
+        "latitude": "44.53583",
+        "website": "http://www.lyndonvt.org"
+    },
+    {
+        "name": "Mad River Glen",
+        "location": "Fayston, Vermont",
+        "description": "",
+        "longitude": "72.92444",
+        "latitude": "44.20083",
+        "website": "http://www.madriverglen.com"
+    },
+    {
+        "name": "Magic Mountain",
+        "location": "Londonderry, Windham County, Vermont, United States",
+        "description": "",
+        "longitude": "72.76000",
+        "latitude": "43.19278",
+        "website": "http://www.magicmtn.com"
+    },
+    {
+        "name": "Middlebury College Snow Bowl",
+        "location": "Hancock, Vermont, US",
+        "description": "",
+        "longitude": "72.96",
+        "latitude": "43.94",
+        "website": "http://middleburysnowbowl.com"
+    },
+    {
+        "name": "Mount Snow",
+        "location": "Dover, Windham County, Vermont, USA",
+        "description": "",
+        "longitude": "72.922",
+        "latitude": "42.959",
+        "website": "https://www.mountsnow.com"
+    },
+    {
+        "name": "Northeast Slopes",
+        "location": "Corinth, Vermont, USA",
+        "description": "",
+        "longitude": "72.25028",
+        "latitude": "44.07250",
+        "website": "https://northeastslopes.org"
+    },
+    {
+        "name": "Okemo Mountain",
+        "location": "Ludlow MountainLudlow, Vermont, U.S.",
+        "description": "",
+        "longitude": "72.71667",
+        "latitude": "43.40139",
+        "website": "http://www.okemo.com/"
+    },
+    {
+        "name": "Pico Mountain",
+        "location": "Killington, Vermont, United States",
+        "description": "",
+        "longitude": "72.71667",
+        "latitude": "43.40139",
+        "website": "http://www.picomountain.com/"
+    },
+    {
+        "name": "Plymouth Notch",
+        "location": "TODO",
+        "description": "",
+        "longitude": "72.71667",
+        "latitude": "43.40139",
+        "website": "TODO"
+    },
+    {
+        "name": "Quechee Lakes Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "72.71667",
+        "latitude": "43.40139",
+        "website": "TODO"
+    },
+    {
+        "name": "Saskadena Six",
+        "location": "TODO",
+        "description": "",
+        "longitude": "72.54444",
+        "latitude": "43.66389",
+        "website": "http://saskadenasix.com"
+    },
+    {
+        "name": "Smugglers' Notch",
+        "location": "Town of Cambridge, near Jeffersonville, Vermont, U.S.",
+        "description": "",
+        "longitude": "72.77611",
+        "latitude": "44.57278",
+        "website": "http://www.smuggs.com"
+    },
+    {
+        "name": "Stowe Mountain Resort",
+        "location": "Mount MansfieldLamoille CountyStowe, Vermont\u00a0United States",
+        "description": "",
+        "longitude": "72.78750",
+        "latitude": "44.53194",
+        "website": "http://www.stowe.com"
+    },
+    {
+        "name": "Stratton Mountain Resort",
+        "location": "Stratton Mountain, Windham County, Vermont, United States",
+        "description": "",
+        "longitude": "72.90667",
+        "latitude": "43.11417",
+        "website": "https://www.stratton.com/"
+    },
+    {
+        "name": "Sugarbush Resort",
+        "location": "Warren, Vermont, US (2 miles ESE), Waitsfield (4 miles E)",
+        "description": "",
+        "longitude": "72.885962",
+        "latitude": "44.135098",
+        "website": "http://www.sugarbush.com"
+    },
+    {
+        "name": "Wisp Ski Resort",
+        "location": "Garrett County, Maryland",
+        "description": "",
+        "longitude": "79.36306",
+        "latitude": "39.55806",
+        "website": "TODO"
+    },
+    {
+        "name": "Big Snow American Dream",
+        "location": "Meadowlands Sports Complex,  East Rutherford, New Jersey",
+        "description": "",
+        "longitude": "74.07000",
+        "latitude": "40.81111",
+        "website": "http://bigsnowamericandream.com"
+    },
+    {
+        "name": "Campgaw Mountain",
+        "location": "Bergen County, New Jersey, U.S.",
+        "description": "",
+        "longitude": "74.1993123",
+        "latitude": "41.0542633",
+        "website": "TODO"
+    },
+    {
+        "name": "Hidden Valley",
+        "location": "Vernon Township, Sussex County, New Jersey, United States",
+        "description": "",
+        "longitude": "74.4806000",
+        "latitude": "41.1856000",
+        "website": "TODO"
+    },
+    {
+        "name": "Mountain Creek",
+        "location": "Vernon Township, New Jersey",
+        "description": "",
+        "longitude": "74.513",
+        "latitude": "41.181",
+        "website": "http://www.mountaincreek.com"
+    },
+    {
+        "name": "Beartown Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.513",
+        "latitude": "41.181",
+        "website": "TODO"
+    },
+    {
+        "name": "Belleayre Ski Center",
+        "location": "New York",
+        "description": "",
+        "longitude": "74.510778",
+        "latitude": "42.1422139",
+        "website": "https://www.belleayre.com"
+    },
+    {
+        "name": "Big Tupper Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.510778",
+        "latitude": "42.1422139",
+        "website": "TODO"
+    },
+    {
+        "name": "Brantling Ski Slopes",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.510778",
+        "latitude": "42.1422139",
+        "website": "TODO"
+    },
+    {
+        "name": "Bristol Mountain Ski Resort",
+        "location": "Bristol Mountain, 5662 NY 64",
+        "description": "",
+        "longitude": "77.404444",
+        "latitude": "42.745",
+        "website": "http://www.bristolmountain.com/"
+    },
+    {
+        "name": "Buffalo Ski Club",
+        "location": "TODO",
+        "description": "",
+        "longitude": "77.404444",
+        "latitude": "42.745",
+        "website": "TODO"
+    },
+    {
+        "name": "Catamount Ski Area",
+        "location": "Egremont, Massachusetts / Hillsdale, New York, USA",
+        "description": "",
+        "longitude": "73.477764",
+        "latitude": "42.171457",
+        "website": "http://www.catamountski.com/"
+    },
+    {
+        "name": "Dry Hill Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "73.477764",
+        "latitude": "42.171457",
+        "website": "TODO"
+    },
+    {
+        "name": "Gore Mountain",
+        "location": "North Creek, New York",
+        "description": "",
+        "longitude": "74.00694",
+        "latitude": "43.67222",
+        "website": "http://www.goremountain.com/"
+    },
+    {
+        "name": "Greek Peak",
+        "location": "Virgil, New York, United States",
+        "description": "",
+        "longitude": "76.1460485",
+        "latitude": "42.5085996",
+        "website": "https://www.greekpeak.net"
+    },
+    {
+        "name": "Hickory Ski Center",
+        "location": "TODO",
+        "description": "",
+        "longitude": "76.1460485",
+        "latitude": "42.5085996",
+        "website": "TODO"
+    },
+    {
+        "name": "Holiday Valley",
+        "location": "Ellicottville, New York, USA",
+        "description": "",
+        "longitude": "78.66806",
+        "latitude": "42.26250",
+        "website": "http://www.holidayvalley.com/"
+    },
+    {
+        "name": "Holiday Mountain Ski & Fun",
+        "location": "TODO",
+        "description": "",
+        "longitude": "78.66806",
+        "latitude": "42.26250",
+        "website": "TODO"
+    },
+    {
+        "name": "Holimont",
+        "location": "TODO",
+        "description": "",
+        "longitude": "78.66806",
+        "latitude": "42.26250",
+        "website": "TODO"
+    },
+    {
+        "name": "Hunter Mountain",
+        "location": "Hunter, New York, U.S.",
+        "description": "",
+        "longitude": "74.230278",
+        "latitude": "42.200278",
+        "website": "https://www.huntermtn.com"
+    },
+    {
+        "name": "Kissing Bridge",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.230278",
+        "latitude": "42.200278",
+        "website": "TODO"
+    },
+    {
+        "name": "Labrador Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.230278",
+        "latitude": "42.200278",
+        "website": "TODO"
+    },
+    {
+        "name": "Mount Peter Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.230278",
+        "latitude": "42.200278",
+        "website": "TODO"
+    },
+    {
+        "name": "McCauley Mountain",
+        "location": "SE of Old Forge, New York, USA",
+        "description": "",
+        "longitude": "74.9612837",
+        "latitude": "43.6925676",
+        "website": "TODO"
+    },
+    {
+        "name": "Oak Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.9612837",
+        "latitude": "43.6925676",
+        "website": "TODO"
+    },
+    {
+        "name": "Peek'n Peak",
+        "location": "Town of French Creek, Chautauqua County, near Findley Lake, New York, USA",
+        "description": "",
+        "longitude": "79.73667",
+        "latitude": "42.06250",
+        "website": "http://www.pknpk.com/"
+    },
+    {
+        "name": "Plattekill Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.653678",
+        "latitude": "42.290251",
+        "website": "http://plattekill.com/"
+    },
+    {
+        "name": "Royal Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.653678",
+        "latitude": "42.290251",
+        "website": "TODO"
+    },
+    {
+        "name": "Song Mountain Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.653678",
+        "latitude": "42.290251",
+        "website": "TODO"
+    },
+    {
+        "name": "Snow Ridge Ski Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.653678",
+        "latitude": "42.290251",
+        "website": "TODO"
+    },
+    {
+        "name": "Swain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.653678",
+        "latitude": "42.290251",
+        "website": "TODO"
+    },
+    {
+        "name": "Sugar Hill",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.653678",
+        "latitude": "42.290251",
+        "website": "TODO"
+    },
+    {
+        "name": "Thunder Ridge Ski Area",
+        "location": "Patterson, New York",
+        "description": "",
+        "longitude": "74.653678",
+        "latitude": "42.290251",
+        "website": "http://www.thunderridgeski.com/"
+    },
+    {
+        "name": "Titus Mountain",
+        "location": "Malone, New York /, U.S.",
+        "description": "",
+        "longitude": "74.653678",
+        "latitude": "42.290251",
+        "website": "https://www.titusmountain.com/"
+    },
+    {
+        "name": "Toggenburg Mountain ",
+        "location": "TODO",
+        "description": "",
+        "longitude": "74.653678",
+        "latitude": "42.290251",
+        "website": "TODO"
+    },
+    {
+        "name": "West Mountain",
+        "location": "59 West Mountain Rd. Queensbury, NY",
+        "description": "",
+        "longitude": "73.72833",
+        "latitude": "43.28556",
+        "website": "http://www.westmtn.net/"
+    },
+    {
+        "name": "Willard Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "73.72833",
+        "latitude": "43.28556",
+        "website": "TODO"
+    },
+    {
+        "name": "Whiteface Mountain",
+        "location": "Wilmington, New York, U.S.",
+        "description": "",
+        "longitude": "73.90278",
+        "latitude": "44.36583",
+        "website": "TODO"
+    },
+    {
+        "name": "Windham Mountain",
+        "location": "Windham, New York, US",
+        "description": "",
+        "longitude": "73.90278",
+        "latitude": "44.36583",
+        "website": "http://www.windhammountain.com/"
+    },
+    {
+        "name": "Woods Valley Ski Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "73.90278",
+        "latitude": "44.36583",
+        "website": "TODO"
+    },
+    {
+        "name": "Victor Constant Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "73.90278",
+        "latitude": "44.36583",
+        "website": "TODO"
+    },
+    {
+        "name": "Bear Creek Mountain Resort",
+        "location": "Longswamp Township, Pennsylvania, U.S.",
+        "description": "",
+        "longitude": "75.62583",
+        "latitude": "40.47611",
+        "website": "http://www.bcmr.com/"
+    },
+    {
+        "name": "Blue Knob All Seasons Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "75.62583",
+        "latitude": "40.47611",
+        "website": "TODO"
+    },
+    {
+        "name": "Blue Mountain Resort",
+        "location": "Lower Towamensing Township, Carbon County, Pennsylvania",
+        "description": "",
+        "longitude": "75.51333",
+        "latitude": "40.82222",
+        "website": "https://www.skibluemt.com/"
+    },
+    {
+        "name": "Boyce Park",
+        "location": "TODO",
+        "description": "",
+        "longitude": "79.74528",
+        "latitude": "40.46556",
+        "website": "TODO"
+    },
+    {
+        "name": "Camelback Mountain Resort",
+        "location": "Pocono Township / Jackson Township, Monroe County, near Tannersville, Pennsylvania, USA",
+        "description": "",
+        "longitude": "75.35528",
+        "latitude": "41.05139",
+        "website": "TODO"
+    },
+    {
+        "name": "Eagle Rock Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "75.35528",
+        "latitude": "41.05139",
+        "website": "TODO"
+    },
+    {
+        "name": "Elk Mountain",
+        "location": "Herrick Township, Susquehanna County, near Union Dale, Pennsylvania, U.S.",
+        "description": "",
+        "longitude": "75.559",
+        "latitude": "41.721",
+        "website": "http://www.elkskier.com"
+    },
+    {
+        "name": "Hidden Valley Four Seasons Resort",
+        "location": "Hidden Valley, Pennsylvania\u00a0United States",
+        "description": "",
+        "longitude": "79.258277",
+        "latitude": "40.058042",
+        "website": "http://www.hiddenvalleyresort.com"
+    },
+    {
+        "name": "Jack Frost Big Boulder",
+        "location": "Kidder Township, Pennsylvania, U.S.",
+        "description": "",
+        "longitude": "79.258277",
+        "latitude": "40.058042",
+        "website": "https://www.jfbb.com"
+    },
+    {
+        "name": "Laurel Mountain Ski Resort",
+        "location": "Ligonier Township, Westmoreland County, Pennsylvania, United States",
+        "description": "",
+        "longitude": "79.258277",
+        "latitude": "40.058042",
+        "website": "http://www.laurelmountainski.com/"
+    },
+    {
+        "name": "Liberty Mountain Resort",
+        "location": "Carroll Valley, Pennsylvania, United States",
+        "description": "",
+        "longitude": "77.37500",
+        "latitude": "39.763500",
+        "website": "http://www.libertymountainresort.com"
+    },
+    {
+        "name": "Montage Mountain Ski Resort",
+        "location": "Scranton, Pennsylvania, United States",
+        "description": "",
+        "longitude": "75.6592",
+        "latitude": "41.3533",
+        "website": "TODO"
+    },
+    {
+        "name": "Mountain View at Edinboro",
+        "location": "Washington Township, Erie County, Pennsylvania, United States",
+        "description": "",
+        "longitude": "80.07028",
+        "latitude": "41.85111",
+        "website": "TODO"
+    },
+    {
+        "name": "Seven Springs Mountain Resort",
+        "location": "Seven Springs, Pennsylvania, United States",
+        "description": "",
+        "longitude": "79.29278",
+        "latitude": "40.02306",
+        "website": "http://www.7springs.com"
+    },
+    {
+        "name": "Shawnee Mountain Ski Area",
+        "location": "Middle Smithfield Township / Smithfield Township, Monroe County, Pennsylvania, U.S.",
+        "description": "",
+        "longitude": "75.08333",
+        "latitude": "41.04083",
+        "website": "http://www.shawneemt.com"
+    },
+    {
+        "name": "Ski Big Bear",
+        "location": "TODO",
+        "description": "",
+        "longitude": "75.08333",
+        "latitude": "41.04083",
+        "website": "TODO"
+    },
+    {
+        "name": "Ski Denton",
+        "location": "TODO",
+        "description": "",
+        "longitude": "75.08333",
+        "latitude": "41.04083",
+        "website": "TODO"
+    },
+    {
+        "name": "Ski Roundtop",
+        "location": "Warrington Township, York County, Pennsylvania, United States",
+        "description": "",
+        "longitude": "75.08333",
+        "latitude": "41.04083",
+        "website": "http://www.skiroundtop.com"
+    },
+    {
+        "name": "Spring Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "75.46500",
+        "latitude": "40.25639",
+        "website": "TODO"
+    },
+    {
+        "name": "Ski Sawmill",
+        "location": "TODO",
+        "description": "",
+        "longitude": "75.46500",
+        "latitude": "40.25639",
+        "website": "TODO"
+    },
+    {
+        "name": "Tussey Mountain Ski Area",
+        "location": "Boalsburg, Centre County, Pennsylvania, United States",
+        "description": "",
+        "longitude": "75.46500",
+        "latitude": "40.25639",
+        "website": "http://www.tusseymountain.com"
+    },
+    {
+        "name": "Whitetail Ski Resort",
+        "location": "Montgomery Township, Franklin County, Pennsylvania, United States",
+        "description": "",
+        "longitude": "77.93278",
+        "latitude": "39.74167",
+        "website": "http://www.skiwhitetail.com"
+    },
+    {
+        "name": "Cloudmont Ski & Golf Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "77.93278",
+        "latitude": "39.74167",
+        "website": "TODO"
+    },
+    {
+        "name": "Appalachian Ski Mountain",
+        "location": "Watauga County,North Carolina, U.S.",
+        "description": "",
+        "longitude": "81.662",
+        "latitude": "36.174",
+        "website": "http://www.appskimtn.com/"
+    },
+    {
+        "name": "Cataloochee Ski Area",
+        "location": "Haywood County,North Carolina, U.S.",
+        "description": "",
+        "longitude": "83.090",
+        "latitude": "35.563",
+        "website": "http://www.cataloochee.com"
+    },
+    {
+        "name": "Sapphire Valley",
+        "location": "TODO",
+        "description": "",
+        "longitude": "83.090",
+        "latitude": "35.563",
+        "website": "TODO"
+    },
+    {
+        "name": "Ski Beech",
+        "location": "TODO",
+        "description": "",
+        "longitude": "83.090",
+        "latitude": "35.563",
+        "website": "TODO"
+    },
+    {
+        "name": "Sugar Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "83.090",
+        "latitude": "35.563",
+        "website": "TODO"
+    },
+    {
+        "name": "Wolf Ridge",
+        "location": "Madison County,North Carolina, U.S.",
+        "description": "",
+        "longitude": "82.509",
+        "latitude": "35.955",
+        "website": "https://www.hatleypointe.com//"
+    },
+    {
+        "name": "Ober Gatlinburg",
+        "location": "Gatlinburg, Tennessee, USA",
+        "description": "",
+        "longitude": "83.55778",
+        "latitude": "35.70306",
+        "website": "https://obergatlinburg.com"
+    },
+    {
+        "name": "Mount Aggie Ski Slope",
+        "location": "TODO",
+        "description": "",
+        "longitude": "83.55778",
+        "latitude": "35.70306",
+        "website": "TODO"
+    },
+    {
+        "name": "Bryce Resort",
+        "location": "Basye, Virginia,United States",
+        "description": "",
+        "longitude": "78.76583",
+        "latitude": "38.81750",
+        "website": "http://www.bryceresort.com/Home.aspx"
+    },
+    {
+        "name": "Massanutten Ski Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "78.612028",
+        "latitude": "38.643028",
+        "website": "TODO"
+    },
+    {
+        "name": "The Homestead",
+        "location": "TODO",
+        "description": "",
+        "longitude": "79.8296444",
+        "latitude": "37.9954722",
+        "website": "TODO"
+    },
+    {
+        "name": "Wintergreen Resort",
+        "location": "Wintergreen, Nelson County, Virginia, USA",
+        "description": "",
+        "longitude": "78.94167",
+        "latitude": "37.93000",
+        "website": "http://www.wintergreenresort.com/"
+    },
+    {
+        "name": "Canaan Valley Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "79.46583",
+        "latitude": "39.02361",
+        "website": "https://wvstateparks.com/park/canaan-valley-resort-state-park/"
+    },
+    {
+        "name": "Oglebay Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "79.46583",
+        "latitude": "39.02361",
+        "website": "TODO"
+    },
+    {
+        "name": "Snowshoe Mountain",
+        "location": "Pocahontas County,West Virginia",
+        "description": "",
+        "longitude": "79.99472",
+        "latitude": "38.40889",
+        "website": "http://www.snowshoemtn.com/"
+    },
+    {
+        "name": "Timberline Mountain",
+        "location": "Mount Hood, Clackamas County, Oregon, US",
+        "description": "",
+        "longitude": "121.71",
+        "latitude": "45.33",
+        "website": "http://www.timberlinelodge.com/"
+    },
+    {
+        "name": "Winterplace",
+        "location": "Ghent, West Virginia",
+        "description": "",
+        "longitude": "81.11500",
+        "latitude": "37.59000",
+        "website": "http://www.winterplace.com"
+    },
+    {
+        "name": "Chestnut Mountain Resort",
+        "location": "Galena IL",
+        "description": "",
+        "longitude": "81.11500",
+        "latitude": "37.59000",
+        "website": "http://www.chestnutmtn.com/"
+    },
+    {
+        "name": "Ski Four Lakes",
+        "location": "TODO",
+        "description": "",
+        "longitude": "81.11500",
+        "latitude": "37.59000",
+        "website": "TODO"
+    },
+    {
+        "name": "Raging Buffalo Snowboard Park",
+        "location": "TODO",
+        "description": "",
+        "longitude": "81.11500",
+        "latitude": "37.59000",
+        "website": "TODO"
+    },
+    {
+        "name": "Ski Snowstar",
+        "location": "TODO",
+        "description": "",
+        "longitude": "81.11500",
+        "latitude": "37.59000",
+        "website": "TODO"
+    },
+    {
+        "name": "Villa Olivia",
+        "location": "TODO",
+        "description": "",
+        "longitude": "81.11500",
+        "latitude": "37.59000",
+        "website": "TODO"
+    },
+    {
+        "name": "Paoli Peaks",
+        "location": "Paoli Township, Orange County, Indiana, U.S. ",
+        "description": "",
+        "longitude": "86.51028",
+        "latitude": "38.55778",
+        "website": "http://www.paolipeaks.com"
+    },
+    {
+        "name": "Perfect North Slopes",
+        "location": "Miller Township, Dearborn County, Indiana",
+        "description": "",
+        "longitude": "84.886581",
+        "latitude": "39.149208",
+        "website": "http://www.perfectnorth.com/"
+    },
+    {
+        "name": "Mt. Crescent Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "84.886581",
+        "latitude": "39.149208",
+        "website": "TODO"
+    },
+    {
+        "name": "Seven Oaks Snow Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "84.886581",
+        "latitude": "39.149208",
+        "website": "TODO"
+    },
+    {
+        "name": "Sleepy Hollow Sports Park",
+        "location": "TODO",
+        "description": "",
+        "longitude": "84.886581",
+        "latitude": "39.149208",
+        "website": "TODO"
+    },
+    {
+        "name": "Sundown Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "84.886581",
+        "latitude": "39.149208",
+        "website": "TODO"
+    },
+    {
+        "name": "Alpine Valley",
+        "location": "TODO",
+        "description": "",
+        "longitude": "84.886581",
+        "latitude": "39.149208",
+        "website": "TODO"
+    },
+    {
+        "name": "Big Powderhorn Mountain",
+        "location": "Bessemer Township, Michigan",
+        "description": "",
+        "longitude": "84.886581",
+        "latitude": "39.149208",
+        "website": "https://bigpowderhorn.net/"
+    },
+    {
+        "name": "Bittersweet Ski Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "84.886581",
+        "latitude": "39.149208",
+        "website": "TODO"
+    },
+    {
+        "name": "Boyne Mountain Resort",
+        "location": "Boyne Valley Township, Charlevoix County",
+        "description": "",
+        "longitude": "84.93278",
+        "latitude": "45.16389",
+        "website": "http://www.boyne.com/BoyneMountain/"
+    },
+    {
+        "name": "Caberfae Peaks Ski & Golf Resort",
+        "location": "Caberfae, Michigan",
+        "description": "",
+        "longitude": "85.72500",
+        "latitude": "44.24972",
+        "website": "http://caberfaepeaks.com"
+    },
+    {
+        "name": "Cannonsburg Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "85.72500",
+        "latitude": "44.24972",
+        "website": "TODO"
+    },
+    {
+        "name": "Challenge Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "85.72500",
+        "latitude": "44.24972",
+        "website": "TODO"
+    },
+    {
+        "name": "Crystal Mountain Resort & Spa",
+        "location": "Thompsonville,Weldon Township, Michigan",
+        "description": "",
+        "longitude": "85.72500",
+        "latitude": "44.24972",
+        "website": "http://www.crystalmountain.com"
+    },
+    {
+        "name": "Hickory Hills Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "85.72500",
+        "latitude": "44.24972",
+        "website": "TODO"
+    },
+    {
+        "name": "The Highlands at Harbor Springs",
+        "location": "Pleasantview Township, Emmet County, Michigan, United States",
+        "description": "",
+        "longitude": "85.72500",
+        "latitude": "44.24972",
+        "website": "https://www.highlandsharborsprings.com/"
+    },
+    {
+        "name": "The Homestead",
+        "location": "TODO",
+        "description": "",
+        "longitude": "85.72500",
+        "latitude": "44.24972",
+        "website": "TODO"
+    },
+    {
+        "name": "Marquette Mountain",
+        "location": "Marquette, Michigan, U.S.",
+        "description": "",
+        "longitude": "87.42",
+        "latitude": "46.508",
+        "website": "http://www.marquettemountain.com"
+    },
+    {
+        "name": "Mont Ripley Ski Resort",
+        "location": "Franklin Township, Houghton County, Michigan, United States",
+        "description": "",
+        "longitude": "88.56",
+        "latitude": "47.13",
+        "website": "http://www.mtu.edu/mont-ripley"
+    },
+    {
+        "name": "Mount Bohemia",
+        "location": "Grant Township, Keweenaw County, at Lac La Belle, Michigan",
+        "description": "",
+        "longitude": "88.01361",
+        "latitude": "47.39167",
+        "website": "http://www.mtbohemia.com/"
+    },
+    {
+        "name": "Mt. Brighton Ski Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.01361",
+        "latitude": "47.39167",
+        "website": "TODO"
+    },
+    {
+        "name": "Mt. Holiday",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.01361",
+        "latitude": "47.39167",
+        "website": "TODO"
+    },
+    {
+        "name": "Mt. Holly Ski and Snowboard Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.01361",
+        "latitude": "47.39167",
+        "website": "TODO"
+    },
+    {
+        "name": "Mt. McSauba Recreation Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.01361",
+        "latitude": "47.39167",
+        "website": "TODO"
+    },
+    {
+        "name": "Mt. Zion Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.01361",
+        "latitude": "47.39167",
+        "website": "TODO"
+    },
+    {
+        "name": "Mulligan's Hollow Ski Bowl",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.01361",
+        "latitude": "47.39167",
+        "website": "TODO"
+    },
+    {
+        "name": "Norway Mountain Ski and Snowboard Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.01361",
+        "latitude": "47.39167",
+        "website": "TODO"
+    },
+    {
+        "name": "Nub's Nob",
+        "location": "Michigan, United States",
+        "description": "",
+        "longitude": "84.903",
+        "latitude": "45.47",
+        "website": "http://nubsnob.com"
+    },
+    {
+        "name": "Otsego Club & Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "84.903",
+        "latitude": "45.47",
+        "website": "TODO"
+    },
+    {
+        "name": "Petoskey Winter Sports Park",
+        "location": "TODO",
+        "description": "",
+        "longitude": "84.903",
+        "latitude": "45.47",
+        "website": "TODO"
+    },
+    {
+        "name": "Pine Knob Ski Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "83.3671629",
+        "latitude": "42.7422524",
+        "website": "TODO"
+    },
+    {
+        "name": "Pine Mountain Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "83.3671629",
+        "latitude": "42.7422524",
+        "website": "TODO"
+    },
+    {
+        "name": "Porcupine Mountains Ski Area",
+        "location": "Michigan, United States",
+        "description": "",
+        "longitude": "89.67",
+        "latitude": "46.8",
+        "website": "https://porkies.ski/"
+    },
+    {
+        "name": "Shanty Creek Resorts",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.67",
+        "latitude": "46.8",
+        "website": "TODO"
+    },
+    {
+        "name": "Ski Brule",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.67",
+        "latitude": "46.8",
+        "website": "TODO"
+    },
+    {
+        "name": "Snow Snake Ski & Golf",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.67",
+        "latitude": "46.8",
+        "website": "TODO"
+    },
+    {
+        "name": "Snow River Mountain Resort",
+        "location": "Wakefield Township, Michigan, United States",
+        "description": "",
+        "longitude": "89.67",
+        "latitude": "46.8",
+        "website": "http://www.snowriver.com"
+    },
+    {
+        "name": "Swiss Valley Ski and Snowboard Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.67",
+        "latitude": "46.8",
+        "website": "TODO"
+    },
+    {
+        "name": "Timber Ridge Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.67",
+        "latitude": "46.8",
+        "website": "TODO"
+    },
+    {
+        "name": "Treetops Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.67",
+        "latitude": "46.8",
+        "website": "TODO"
+    },
+    {
+        "name": "Afton Alps",
+        "location": "Denmark Township, Washington County",
+        "description": "",
+        "longitude": "89.67",
+        "latitude": "46.8",
+        "website": "http://www.aftonalps.com/"
+    },
+    {
+        "name": "Andes Tower Hills",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.67",
+        "latitude": "46.8",
+        "website": "TODO"
+    },
+    {
+        "name": "Buck Hill",
+        "location": "Burnsville, Minnesota, U.S.",
+        "description": "",
+        "longitude": "93.283",
+        "latitude": "44.724",
+        "website": "http://www.buckhill.com"
+    },
+    {
+        "name": "Buena Vista Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "93.283",
+        "latitude": "44.724",
+        "website": "TODO"
+    },
+    {
+        "name": "Chester Bowl Park",
+        "location": "TODO",
+        "description": "",
+        "longitude": "93.283",
+        "latitude": "44.724",
+        "website": "TODO"
+    },
+    {
+        "name": "Coffee Mill Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "93.283",
+        "latitude": "44.724",
+        "website": "TODO"
+    },
+    {
+        "name": "Detroit Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "93.283",
+        "latitude": "44.724",
+        "website": "TODO"
+    },
+    {
+        "name": "Giants Ridge",
+        "location": "TODO",
+        "description": "",
+        "longitude": "93.283",
+        "latitude": "44.724",
+        "website": "https://www.giantsridge.com/"
+    },
+    {
+        "name": "Hyland Ski and Snowboard Area",
+        "location": "Bloomington, Minnesota, U.S.",
+        "description": "",
+        "longitude": "93.364",
+        "latitude": "44.844",
+        "website": "https://www.threeriversparks.org/location/hyland-hills-ski-area"
+    },
+    {
+        "name": "Lutsen Mountains",
+        "location": "Lutsen Township,Cook County, Minnesota",
+        "description": "",
+        "longitude": "90.714",
+        "latitude": "47.664",
+        "website": "http://www.lutsen.com/winter/"
+    },
+    {
+        "name": "Mount Itasca",
+        "location": "TODO",
+        "description": "",
+        "longitude": "90.714",
+        "latitude": "47.664",
+        "website": "TODO"
+    },
+    {
+        "name": "Mount Kato",
+        "location": "Mankato Township, Blue Earth County, Minnesota, U.S.",
+        "description": "",
+        "longitude": "90.714",
+        "latitude": "47.664",
+        "website": "http://www.mountkato.com"
+    },
+    {
+        "name": "Powder Ridge",
+        "location": "TODO",
+        "description": "",
+        "longitude": "90.714",
+        "latitude": "47.664",
+        "website": "TODO"
+    },
+    {
+        "name": "Ski Gull",
+        "location": "TODO",
+        "description": "",
+        "longitude": "90.714",
+        "latitude": "47.664",
+        "website": "TODO"
+    },
+    {
+        "name": "Spirit Mountain",
+        "location": "Duluth, Minnesota",
+        "description": "",
+        "longitude": "90.714",
+        "latitude": "47.664",
+        "website": "http://www.spiritmt.com"
+    },
+    {
+        "name": "Welch Village",
+        "location": "Vasa Township, Goodhue County, Minnesota",
+        "description": "",
+        "longitude": "92.72722",
+        "latitude": "44.56056",
+        "website": "http://www.welchvillage.com"
+    },
+    {
+        "name": "Wild Mountain",
+        "location": "Amador Township, Chisago County, Minnesota",
+        "description": "",
+        "longitude": "92.72722",
+        "latitude": "44.56056",
+        "website": "http://www.wildmountain.com/"
+    },
+    {
+        "name": "Hidden Valley Ski Area",
+        "location": "Wildwood, Missouri, United States",
+        "description": "",
+        "longitude": "90.65287",
+        "latitude": "38.535578",
+        "website": "http://www.hiddenvalleyski.com/"
+    },
+    {
+        "name": "Snow Creek",
+        "location": "Weston, Missouri, U.S.",
+        "description": "",
+        "longitude": "94.971964",
+        "latitude": "39.468651",
+        "website": "http://www.skisnowcreek.com/"
+    },
+    {
+        "name": "Bottineau Winter Park",
+        "location": "Bottineau County,North Dakota, U.S.",
+        "description": "",
+        "longitude": "100.473",
+        "latitude": "48.951",
+        "website": "http://www.skibwp.com"
+    },
+    {
+        "name": "Frost Fire",
+        "location": "Cavalier County,North Dakota, U.S.",
+        "description": "",
+        "longitude": "98.068",
+        "latitude": "48.912",
+        "website": "http://www.frostfirepark.org"
+    },
+    {
+        "name": "Huff Hills",
+        "location": "TODO",
+        "description": "",
+        "longitude": "98.068",
+        "latitude": "48.912",
+        "website": "TODO"
+    },
+    {
+        "name": "Alpine Valley Ski Area",
+        "location": "Munson Township, Ohio, US",
+        "description": "",
+        "longitude": "81.2662",
+        "latitude": "41.5303",
+        "website": "http://www.alpinevalleyohio.com/"
+    },
+    {
+        "name": "Big Creek Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "81.2662",
+        "latitude": "41.5303",
+        "website": "TODO"
+    },
+    {
+        "name": "Boston Mills/Brandywine Ski Resort",
+        "location": "Boston Township / Sagamore Hills Township, Summit County, near Peninsula, Ohio, USA",
+        "description": "",
+        "longitude": "81.5644",
+        "latitude": "41.2648",
+        "website": "http://bmbw.com"
+    },
+    {
+        "name": "Mad River Mountain",
+        "location": "Valley Hi, Ohio (Jefferson Township, Logan County, Ohio)",
+        "description": "",
+        "longitude": "83.6805639",
+        "latitude": "40.3163167",
+        "website": "http://www.skimadriver.com/"
+    },
+    {
+        "name": "Snow Trails Ski Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "83.6805639",
+        "latitude": "40.3163167",
+        "website": "TODO"
+    },
+    {
+        "name": "Mystic Miner Ski Resort",
+        "location": "Lawrence County, South Dakota, United States",
+        "description": "",
+        "longitude": "103.8184417",
+        "latitude": "44.3084333",
+        "website": "http://skimystic.com/main.php"
+    },
+    {
+        "name": "Great Bear Recreation Park",
+        "location": "Sioux Falls, South Dakota, USA",
+        "description": "",
+        "longitude": "96.6649667",
+        "latitude": "43.5821000",
+        "website": "http://www.greatbearpark.com"
+    },
+    {
+        "name": "Terry Peak Ski Area",
+        "location": "Lawrence County, South\u00a0Dakota, U.S.",
+        "description": "",
+        "longitude": "103.835",
+        "latitude": "44.329",
+        "website": "http://www.terrypeak.com/"
+    },
+    {
+        "name": "Alpine Valley Resort",
+        "location": "Town of Lafayette,Walworth County,Wisconsin, U.S.",
+        "description": "",
+        "longitude": "88.428",
+        "latitude": "42.736",
+        "website": "http://www.alpinevalleyresort.com"
+    },
+    {
+        "name": "Ausblick Ski Club",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.428",
+        "latitude": "42.736",
+        "website": "TODO"
+    },
+    {
+        "name": "Badlands Sno-Park",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.428",
+        "latitude": "42.736",
+        "website": "TODO"
+    },
+    {
+        "name": "Book Across the Bay",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.428",
+        "latitude": "42.736",
+        "website": "TODO"
+    },
+    {
+        "name": "Blackhawk Ski Club",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.428",
+        "latitude": "42.736",
+        "website": "TODO"
+    },
+    {
+        "name": "Bruce Mound Winter Sports Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.428",
+        "latitude": "42.736",
+        "website": "TODO"
+    },
+    {
+        "name": "Camp 10",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.428",
+        "latitude": "42.736",
+        "website": "TODO"
+    },
+    {
+        "name": "Cascade Mountain",
+        "location": "Portage, Wisconsin",
+        "description": "",
+        "longitude": "89.5180167",
+        "latitude": "43.5039278",
+        "website": "http://www.cascademountain.com/"
+    },
+    {
+        "name": "Christie Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.5180167",
+        "latitude": "43.5039278",
+        "website": "TODO"
+    },
+    {
+        "name": "Christmas Mountain Village",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.5180167",
+        "latitude": "43.5039278",
+        "website": "TODO"
+    },
+    {
+        "name": "Crystal Ridge",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.5180167",
+        "latitude": "43.5039278",
+        "website": "TODO"
+    },
+    {
+        "name": "Devils Head Resort",
+        "location": "Town of Merrimac, Wisconsin",
+        "description": "",
+        "longitude": "89.5180167",
+        "latitude": "43.5039278",
+        "website": "https://www.devilsheadresort.com/ski-resort-mountain-sauk-merrimac-wi-wisconsin/"
+    },
+    {
+        "name": "Fox Hill Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.5180167",
+        "latitude": "43.5039278",
+        "website": "TODO"
+    },
+    {
+        "name": "Granite Peak",
+        "location": "Rib Mountain CDP, Town of Rib Mountain, Marathon County, Wisconsin, U.S.",
+        "description": "",
+        "longitude": "89.68250",
+        "latitude": "44.92861",
+        "website": "http://www.skigranitepeak.com/"
+    },
+    {
+        "name": "Heiliger Huegel Ski Club",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.68250",
+        "latitude": "44.92861",
+        "website": "TODO"
+    },
+    {
+        "name": "Kettlebowl",
+        "location": "Town of Langlade, Langlade County, Wisconsin, USA",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "https://kettlebowl.org"
+    },
+    {
+        "name": "Kewaunee County Winter Park Ski Hill",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Keyes Peak",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Little Switzerland Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Mont Du Lac",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "The Mountain Top at Grand Geneva Resort",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Mt. Ashwabay",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Mt. LaCrosse",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Navarino Slopes",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Nordic Mountain",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Nutt Hill",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Powers Bluff",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Standing Rocks",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Sunburst Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Telemark Lodge",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Triangle Sports Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Trollhaugen",
+        "location": "TODO",
+        "description": "",
+        "longitude": "88.901978833",
+        "latitude": "45.271323000",
+        "website": "TODO"
+    },
+    {
+        "name": "Tyrol Basin",
+        "location": "Town of Vermont, Wisconsin",
+        "description": "",
+        "longitude": "89.77",
+        "latitude": "43.04",
+        "website": "http://tyrolbasin.com"
+    },
+    {
+        "name": "Whitecap Mountains",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.77",
+        "latitude": "43.04",
+        "website": "TODO"
+    },
+    {
+        "name": "Whitetail Ridge",
+        "location": "TODO",
+        "description": "",
+        "longitude": "89.77",
+        "latitude": "43.04",
+        "website": "TODO"
+    },
+    {
+        "name": "Wilmot Mountain",
+        "location": "Wilmot, Wisconsin, U.S.",
+        "description": "",
+        "longitude": "89.77",
+        "latitude": "43.04",
+        "website": "http://www.wilmotmountain.com"
+    },
+    {
+        "name": "Arizona Snowbowl",
+        "location": "Coconino County, Arizona, United States",
+        "description": "",
+        "longitude": "111.705",
+        "latitude": "35.330",
+        "website": "http://www.arizonasnowbowl.com"
+    },
+    {
+        "name": "Elk Ridge Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "111.705",
+        "latitude": "35.330",
+        "website": "TODO"
+    },
+    {
+        "name": "Mount Lemmon Ski Valley",
+        "location": "Pima County, Arizona, USA",
+        "description": "",
+        "longitude": "110.78389",
+        "latitude": "32.45222",
+        "website": "http://www.skithelemmon.com/"
+    },
+    {
+        "name": "Sunrise Park Resort",
+        "location": "Apache County, Arizona, United States",
+        "description": "",
+        "longitude": "109.56472",
+        "latitude": "33.97333",
+        "website": "https://www.sunrise.ski/"
+    },
+    {
+        "name": "Arapahoe Basin",
+        "location": "White River National ForestSummit County, Colorado, U.S.",
+        "description": "",
+        "longitude": "105.87167",
+        "latitude": "39.64167",
+        "website": "http://arapahoebasin.com"
+    },
+    {
+        "name": "Aspen/Snowmass",
+        "location": "TODO",
+        "description": "",
+        "longitude": "105.87167",
+        "latitude": "39.64167",
+        "website": "TODO"
+    },
+    {
+        "name": "Aspen Highlands[5]",
+        "location": "Pitkin County, Colorado, United States",
+        "description": "",
+        "longitude": "106.85639",
+        "latitude": "39.18111",
+        "website": "http://www.aspensnowmass.com"
+    },
+    {
+        "name": "Aspen Mountain[5]",
+        "location": "White River National ForestAspen, Pitkin County,Colorado, U.S.",
+        "description": "",
+        "longitude": "106.81861",
+        "latitude": "39.18639",
+        "website": "http://www.aspensnowmass.com"
+    },
+    {
+        "name": "Buttermilk",
+        "location": "Pitkin County, Colorado, United States",
+        "description": "",
+        "longitude": "106.86056",
+        "latitude": "39.20500",
+        "website": "http://www.aspensnowmass.com"
+    },
+    {
+        "name": "Snowmass[5]",
+        "location": "Within the White River National Forest, adjacent to Snowmass Village and 9 miles (14 km) from downtown Aspen",
+        "description": "",
+        "longitude": "106.9513",
+        "latitude": "39.1956",
+        "website": "http://www.aspensnowmass.com"
+    },
+    {
+        "name": "Beaver Creek Resort",
+        "location": "Eagle County, Colorado, U.S.",
+        "description": "",
+        "longitude": "106.52167",
+        "latitude": "39.63139",
+        "website": "https://www.beavercreek.com/"
+    },
+    {
+        "name": "Breckenridge Ski Resort",
+        "location": "White River National ForestSummit County, Colorado",
+        "description": "",
+        "longitude": "106.067",
+        "latitude": "39.480",
+        "website": "http://www.breckenridge.com/"
+    },
+    {
+        "name": "Chapman Hill Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "106.067",
+        "latitude": "39.480",
+        "website": "TODO"
+    },
+    {
+        "name": "Copper Mountain Resort",
+        "location": "White River National ForestSummit County, Colorado, U.S.",
+        "description": "",
+        "longitude": "106.15639",
+        "latitude": "39.50167",
+        "website": "http://www.coppercolorado.com"
+    },
+    {
+        "name": "Cranor Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "106.15639",
+        "latitude": "39.50167",
+        "website": "TODO"
+    },
+    {
+        "name": "Crested Butte Mountain Resort",
+        "location": "Gunnison County, Colorado, USA",
+        "description": "",
+        "longitude": "106.96500",
+        "latitude": "38.89972",
+        "website": "http://www.skicb.com"
+    },
+    {
+        "name": "Echo Mountain Resort",
+        "location": "Clear Creek County, Colorado, United States",
+        "description": "",
+        "longitude": "105.51944",
+        "latitude": "39.68500",
+        "website": "https://echomntn.com/"
+    },
+    {
+        "name": "Eldora Mountain Resort",
+        "location": "Boulder County,Colorado, U.S.",
+        "description": "",
+        "longitude": "105.58361",
+        "latitude": "39.93750",
+        "website": "http://eldora.com"
+    },
+    {
+        "name": "Hesperus Ski Area",
+        "location": "HesperusLa Plata County, Colorado",
+        "description": "",
+        "longitude": "108.05500",
+        "latitude": "37.29778",
+        "website": "TODO"
+    },
+    {
+        "name": "Howelsen Hill Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "108.05500",
+        "latitude": "37.29778",
+        "website": "TODO"
+    },
+    {
+        "name": "Kendall Mountain Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "108.05500",
+        "latitude": "37.29778",
+        "website": "TODO"
+    },
+    {
+        "name": "Keystone Resort",
+        "location": "White River National ForestSummit County, Colorado, United States",
+        "description": "",
+        "longitude": "105.95417",
+        "latitude": "39.60500",
+        "website": "http://www.keystoneresort.com/"
+    },
+    {
+        "name": "Lake City Ski Hill",
+        "location": "TODO",
+        "description": "",
+        "longitude": "105.95417",
+        "latitude": "39.60500",
+        "website": "TODO"
+    },
+    {
+        "name": "Loveland Ski Area",
+        "location": "Arapahoe National ForestClear Creek County,Colorado, U.S.",
+        "description": "",
+        "longitude": "105.897",
+        "latitude": "39.680",
+        "website": "http://www.skiloveland.com"
+    },
+    {
+        "name": "Loveland Valley",
+        "location": "TODO",
+        "description": "",
+        "longitude": "105.897",
+        "latitude": "39.680",
+        "website": "TODO"
+    },
+    {
+        "name": "Monarch Ski Area",
+        "location": "Chaffee County, Colorado, United States",
+        "description": "",
+        "longitude": "106.33250",
+        "latitude": "38.51250",
+        "website": "http://www.skimonarch.com"
+    },
+    {
+        "name": "Powderhorn Resort",
+        "location": "Mesa County, Colorado, United States",
+        "description": "",
+        "longitude": "108.15556",
+        "latitude": "39.06306",
+        "website": "http://www.powderhorn.com"
+    },
+    {
+        "name": "Purgatory Resort",
+        "location": "La Plata County, Colorado, United States",
+        "description": "",
+        "longitude": "107.81444",
+        "latitude": "37.62972",
+        "website": "http://www.purgatoryresort.com/"
+    },
+    {
+        "name": "Silverton Mountain",
+        "location": "Storm PeakSilverton, Colorado, US",
+        "description": "",
+        "longitude": "107.66529",
+        "latitude": "37.88470",
+        "website": "http://www.silvertonmountain.com"
+    },
+    {
+        "name": "Ski Cooper",
+        "location": "Eagle / Lake counties, Colorado, USA",
+        "description": "",
+        "longitude": "106.302",
+        "latitude": "39.360",
+        "website": "http://www.skicooper.com/"
+    },
+    {
+        "name": "Ski Granby Ranch",
+        "location": "TODO",
+        "description": "",
+        "longitude": "106.302",
+        "latitude": "39.360",
+        "website": "TODO"
+    },
+    {
+        "name": "Steamboat Ski Resort",
+        "location": "Routt County, Colorado,\u00a0U.S.",
+        "description": "",
+        "longitude": "106.803",
+        "latitude": "40.459",
+        "website": "http://www.steamboat.com"
+    },
+    {
+        "name": "Sunlight Ski Area",
+        "location": "White River National Forest, Garfield Co., Colorado, U.S.",
+        "description": "",
+        "longitude": "107.339278",
+        "latitude": "39.399806",
+        "website": "http://www.sunlightmtn.com/"
+    },
+    {
+        "name": "Telluride Ski Resort",
+        "location": "Telluride, Colorado, United States",
+        "description": "",
+        "longitude": "107.82028",
+        "latitude": "37.93639",
+        "website": "http://tellurideskiresort.com"
+    },
+    {
+        "name": "Vail Ski Resort",
+        "location": "Vail, Eagle County,Colorado, United States",
+        "description": "",
+        "longitude": "106.374",
+        "latitude": "39.639",
+        "website": "http://www.vail.com/"
+    },
+    {
+        "name": "Winter Park Resort",
+        "location": "Grand County, Colorado,\u00a0U.S.",
+        "description": "",
+        "longitude": "105.76250",
+        "latitude": "39.88694",
+        "website": "http://winterparkresort.com"
+    },
+    {
+        "name": "Wolf Creek ski area",
+        "location": "Mineral County, Colorado, USA",
+        "description": "",
+        "longitude": "106.79333",
+        "latitude": "37.47222",
+        "website": "http://www.wolfcreekski.com"
+    },
+    {
+        "name": "Aspen Highlands[5]",
+        "location": "Pitkin County, Colorado, United States",
+        "description": "",
+        "longitude": "106.85639",
+        "latitude": "39.18111",
+        "website": "http://www.aspensnowmass.com"
+    },
+    {
+        "name": "Aspen Mountain[5]",
+        "location": "White River National ForestAspen, Pitkin County,Colorado, U.S.",
+        "description": "",
+        "longitude": "106.81861",
+        "latitude": "39.18639",
+        "website": "http://www.aspensnowmass.com"
+    },
+    {
+        "name": "Buttermilk",
+        "location": "Pitkin County, Colorado, United States",
+        "description": "",
+        "longitude": "106.86056",
+        "latitude": "39.20500",
+        "website": "http://www.aspensnowmass.com"
+    },
+    {
+        "name": "Snowmass[5]",
+        "location": "Within the White River National Forest, adjacent to Snowmass Village and 9 miles (14 km) from downtown Aspen",
+        "description": "",
+        "longitude": "106.9513",
+        "latitude": "39.1956",
+        "website": "http://www.aspensnowmass.com"
+    },
+    {
+        "name": "Loveland Valley",
+        "location": "TODO",
+        "description": "",
+        "longitude": "106.9513",
+        "latitude": "39.1956",
+        "website": "TODO"
+    },
+    {
+        "name": "Bald Mountain",
+        "location": "Clearwater County,Idaho, U.S.",
+        "description": "",
+        "longitude": "115.87",
+        "latitude": "46.57",
+        "website": "http://www.skibaldmountain.com/about.html"
+    },
+    {
+        "name": "Bogus Basin",
+        "location": "Boise National ForestBoise County, Idaho, U.S.",
+        "description": "",
+        "longitude": "116.104",
+        "latitude": "43.764",
+        "website": "http://www.bogusbasin.org"
+    },
+    {
+        "name": "Brundage Mountain",
+        "location": "Payette National ForestAdams & Valley counties,Idaho, U.S.",
+        "description": "",
+        "longitude": "116.155",
+        "latitude": "45.005",
+        "website": "http://www.brundage.com"
+    },
+    {
+        "name": "Cottonwood Butte",
+        "location": "Idaho County, Idaho, U.S.",
+        "description": "",
+        "longitude": "116.4528",
+        "latitude": "46.0755",
+        "website": "http://www.cottonwoodbutte.org/"
+    },
+    {
+        "name": "Kelly Canyon",
+        "location": "Targhee National ForestJefferson County &Madison County, Idaho,\u00a0United States",
+        "description": "",
+        "longitude": "111.63000",
+        "latitude": "43.64583",
+        "website": "http://www.kellycanyonresort.com/"
+    },
+    {
+        "name": "Little Ski Hill",
+        "location": "Adams County, Idaho, U.S.",
+        "description": "",
+        "longitude": "116.16306",
+        "latitude": "44.93000",
+        "website": "http://www.littleskihill.org/"
+    },
+    {
+        "name": "Lookout Pass",
+        "location": "Shoshone County, Idaho &Mineral County, Montana\u00a0United States",
+        "description": "",
+        "longitude": "115.707",
+        "latitude": "47.453",
+        "website": "http://www.skilookout.com"
+    },
+    {
+        "name": "Lost Trail Powder Mountain",
+        "location": "Lost Trail PassLemhi County, Idaho &Ravalli County, Montana",
+        "description": "",
+        "longitude": "113.952",
+        "latitude": "45.692",
+        "website": "http://www.losttrail.com"
+    },
+    {
+        "name": "Magic Mountain",
+        "location": "Sawtooth National ForestTwin Falls Co., Idaho, U.S.",
+        "description": "",
+        "longitude": "114.286111",
+        "latitude": "42.188306",
+        "website": "http://www.magicmountainresort.com/"
+    },
+    {
+        "name": "Pebble Creek",
+        "location": "Caribou National ForestBannock County, Idaho, U.S.",
+        "description": "",
+        "longitude": "112.160",
+        "latitude": "42.778",
+        "website": "http://www.pebblecreekskiarea.com"
+    },
+    {
+        "name": "Pine Street Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "116.567",
+        "latitude": "48.267",
+        "website": "http://www.cityofsandpoint.com/"
+    },
+    {
+        "name": "Pomerelle",
+        "location": "Sawtooth National ForestCassia County, Idaho, U.S.",
+        "description": "",
+        "longitude": "113.608",
+        "latitude": "42.318",
+        "website": "http://www.pomerelle.com"
+    },
+    {
+        "name": "Rotarun",
+        "location": "25 Rodeo DriveBlaine County, Idaho, U.S.",
+        "description": "",
+        "longitude": "114.366000",
+        "latitude": "43.497500",
+        "website": "http://rotarun.org"
+    },
+    {
+        "name": "Schweitzer Mountain",
+        "location": "Bonner County, Idaho, U.S.",
+        "description": "",
+        "longitude": "116.623",
+        "latitude": "48.367",
+        "website": "http://www.schweitzer.com"
+    },
+    {
+        "name": "Silver Mountain",
+        "location": "Kellogg, Idaho, U.S.",
+        "description": "",
+        "longitude": "116.135",
+        "latitude": "47.495",
+        "website": "http://www.silvermt.com"
+    },
+    {
+        "name": "Snowhaven",
+        "location": "Idaho County, Idaho, U.S.",
+        "description": "",
+        "longitude": "116.09000",
+        "latitude": "45.869000",
+        "website": "http://grangeville.us/snowhaven-ski-and-tubing-hill/"
+    },
+    {
+        "name": "Soldier Mountain",
+        "location": "Sawtooth National ForestCamas County, Idaho, U.S.",
+        "description": "",
+        "longitude": "114.830",
+        "latitude": "43.485",
+        "website": "https://soldiermountain.com/"
+    },
+    {
+        "name": "Sun Valley",
+        "location": "Ketchum & Sun ValleyBlaine County, Idaho, U.S.",
+        "description": "",
+        "longitude": "114.40917",
+        "latitude": "43.65500",
+        "website": "http://www.sunvalley.com"
+    },
+    {
+        "name": "Tamarack",
+        "location": "Valley County, Idaho, U.S.",
+        "description": "",
+        "longitude": "116.123",
+        "latitude": "44.671",
+        "website": "http://www.tamarackidaho.com"
+    },
+    {
+        "name": "Bear Paw Ski Bowl",
+        "location": "Hill County, Montana",
+        "description": "",
+        "longitude": "109.6702194",
+        "latitude": "48.1644000",
+        "website": "https://www.bearpawskibowl.org/"
+    },
+    {
+        "name": "Big Sky",
+        "location": "Big Sky,Madison County,Montana\u00a0United States",
+        "description": "",
+        "longitude": "111.41667",
+        "latitude": "45.25000",
+        "website": "http://www.bigskyresort.com/"
+    },
+    {
+        "name": "Blacktail Mountain",
+        "location": "Lakeside, Montana",
+        "description": "",
+        "longitude": "114.24694",
+        "latitude": "48.01306",
+        "website": "http://www.blacktailmountain.com/"
+    },
+    {
+        "name": "Bridger Bowl",
+        "location": "Gallatin National ForestGallatin County, Montana\u00a0United States",
+        "description": "",
+        "longitude": "110.897",
+        "latitude": "45.818",
+        "website": "https://bridgerbowl.com"
+    },
+    {
+        "name": "Discovery",
+        "location": "Granite County, Montana",
+        "description": "",
+        "longitude": "113.24194",
+        "latitude": "46.25639",
+        "website": "http://www.skidiscovery.com/"
+    },
+    {
+        "name": "Great Divide",
+        "location": "Marysville, Montana",
+        "description": "",
+        "longitude": "112.3043",
+        "latitude": "46.7497",
+        "website": "http://www.skigd.com"
+    },
+    {
+        "name": "Lost Trail Powder Mountain",
+        "location": "Lost Trail PassLemhi County, Idaho &Ravalli County, Montana",
+        "description": "",
+        "longitude": "113.952",
+        "latitude": "45.692",
+        "website": "http://www.losttrail.com"
+    },
+    {
+        "name": "Maverick Mountain",
+        "location": "Polaris, Montana",
+        "description": "",
+        "longitude": "113.12944",
+        "latitude": "45.43500",
+        "website": "http://skimaverick.com"
+    },
+    {
+        "name": "Montana Snowbowl",
+        "location": "Missoula County, Montana",
+        "description": "",
+        "longitude": "114.0",
+        "latitude": "47.02",
+        "website": "http://www.montanasnowbowl.com"
+    },
+    {
+        "name": "Moonlight Basin",
+        "location": "Big Sky, Montana",
+        "description": "",
+        "longitude": "111.45083",
+        "latitude": "45.31417",
+        "website": "http://www.bigskyresort.com/"
+    },
+    {
+        "name": "Red Lodge Mountain",
+        "location": "Carbon County, Montana",
+        "description": "",
+        "longitude": "109.335",
+        "latitude": "45.191",
+        "website": "http://www.redlodgemountain.com"
+    },
+    {
+        "name": "Showdown",
+        "location": "Meagher County, Montana, near Neihart, Montana",
+        "description": "",
+        "longitude": "110.70889",
+        "latitude": "46.83861",
+        "website": "http://www.showdownmontana.com/"
+    },
+    {
+        "name": "Teton Pass",
+        "location": "Teton County, Montana, U.S.",
+        "description": "",
+        "longitude": "112.81528",
+        "latitude": "47.92806",
+        "website": "https://www.skitetonmt.com/"
+    },
+    {
+        "name": "Turner Mountain",
+        "location": "Lincoln County, Montana",
+        "description": "",
+        "longitude": "115.63",
+        "latitude": "48.605",
+        "website": "http://www.skiturner.com"
+    },
+    {
+        "name": "Whitefish Mountain Resort",
+        "location": "The Big MountainFlathead National ForestFlathead County, Montana, U.S.",
+        "description": "",
+        "longitude": "114.34",
+        "latitude": "48.50",
+        "website": "http://www.skiwhitefish.com/"
+    },
+    {
+        "name": "Yellowstone Club",
+        "location": "TODO",
+        "description": "",
+        "longitude": "114.34",
+        "latitude": "48.50",
+        "website": "TODO"
+    },
+    {
+        "name": "Angel Fire Resort",
+        "location": "Angel Fire, New Mexico, United States",
+        "description": "",
+        "longitude": "105.27333",
+        "latitude": "36.38750",
+        "website": "http://www.angelfireresort.com"
+    },
+    {
+        "name": "Pajarito Mountain",
+        "location": "Los Alamos County, New Mexico, United States",
+        "description": "",
+        "longitude": "106.39028",
+        "latitude": "35.89417",
+        "website": "http://www.pajarito.ski/"
+    },
+    {
+        "name": "Red River Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "106.39028",
+        "latitude": "35.89417",
+        "website": "TODO"
+    },
+    {
+        "name": "Sandia Peak",
+        "location": "Bernalillo County, New Mexico,\u00a0U.S.",
+        "description": "",
+        "longitude": "106.4134472",
+        "latitude": "35.2070056",
+        "website": "http://www.sandiapeak.com"
+    },
+    {
+        "name": "Sipapu",
+        "location": "Taos County, New Mexico, USA",
+        "description": "",
+        "longitude": "105.548508",
+        "latitude": "36.154211",
+        "website": "http://www.sipapunm.com/"
+    },
+    {
+        "name": "Ski Apache",
+        "location": "Lincoln County, New Mexico, USA",
+        "description": "",
+        "longitude": "105.548508",
+        "latitude": "36.154211",
+        "website": "https://skiapache.com/"
+    },
+    {
+        "name": "Ski Cloudcroft",
+        "location": "Cloudcroft, Otero County, New Mexico, U.S.",
+        "description": "",
+        "longitude": "105.7072417",
+        "latitude": "32.9507083",
+        "website": "https://skicloudcroft.net/"
+    },
+    {
+        "name": "Ski Santa Fe",
+        "location": "Santa Fe County, New Mexico,\u00a0U.S.",
+        "description": "",
+        "longitude": "105.8012806",
+        "latitude": "35.7963250",
+        "website": "http://www.skisantafe.com"
+    },
+    {
+        "name": "Taos Ski Valley",
+        "location": "TODO",
+        "description": "",
+        "longitude": "105.44500",
+        "latitude": "36.59778",
+        "website": "TODO"
+    },
+    {
+        "name": "Alta",
+        "location": "Alta, Utah, U.S.",
+        "description": "",
+        "longitude": "111.63722",
+        "latitude": "40.58083",
+        "website": "http://www.alta.com"
+    },
+    {
+        "name": "Beaver Mountain",
+        "location": "Cache National ForestLogan Canyon, Utah,United States",
+        "description": "",
+        "longitude": "111.541",
+        "latitude": "41.968",
+        "website": "http://www.skithebeav.com/"
+    },
+    {
+        "name": "Brian Head",
+        "location": "Brian Head, Utah",
+        "description": "",
+        "longitude": "112.833",
+        "latitude": "37.683",
+        "website": "TODO"
+    },
+    {
+        "name": "Brighton",
+        "location": "Brighton, Utah, U.S.",
+        "description": "",
+        "longitude": "111.58333",
+        "latitude": "40.60000",
+        "website": "http://www.brightonresort.com/"
+    },
+    {
+        "name": "Cherry Peak Resort",
+        "location": "Cherry CanyonCache County, UtahUnited States",
+        "description": "",
+        "longitude": "111.75667",
+        "latitude": "41.92639",
+        "website": "http://www.skicherrypeak.com"
+    },
+    {
+        "name": "Deer Valley",
+        "location": "Wasatch RangeSummit County, Utah\u00a0United States",
+        "description": "",
+        "longitude": "111.48944",
+        "latitude": "40.62278",
+        "website": "http://www.deervalley.com/"
+    },
+    {
+        "name": "Eagle Point Ski Resort",
+        "location": "Beaver, Utah \u00a0United States",
+        "description": "",
+        "longitude": "112.39167",
+        "latitude": "38.32056",
+        "website": "http://www.skieaglepoint.com"
+    },
+    {
+        "name": "Nordic Valley",
+        "location": "TODO",
+        "description": "",
+        "longitude": "111.8583",
+        "latitude": "41.300",
+        "website": "TODO"
+    },
+    {
+        "name": "Park City Mountain Resort",
+        "location": "Park City, Utah, United States",
+        "description": "",
+        "longitude": "111.50750",
+        "latitude": "40.65083",
+        "website": "http://www.parkcitymountain.com/"
+    },
+    {
+        "name": "Powder Mountain",
+        "location": "Cache, Weber counties,Utah, United States",
+        "description": "",
+        "longitude": "111.78028",
+        "latitude": "41.38000",
+        "website": "https://www.powdermountain.com"
+    },
+    {
+        "name": "Snowbasin",
+        "location": "Mount OgdenWeber County, Utah, U.S.",
+        "description": "",
+        "longitude": "111.857",
+        "latitude": "41.216",
+        "website": "http://www.snowbasin.com"
+    },
+    {
+        "name": "Snowbird",
+        "location": "Wasatch National ForestLittle Cottonwood CanyonSalt Lake County, Utah\u00a0United States",
+        "description": "",
+        "longitude": "111.65639",
+        "latitude": "40.58111",
+        "website": "http://www.snowbird.com"
+    },
+    {
+        "name": "Solitude",
+        "location": "Brighton, Utah, United States",
+        "description": "",
+        "longitude": "111.588917",
+        "latitude": "40.615139",
+        "website": "https://www.solitudemountain.com/"
+    },
+    {
+        "name": "Sundance",
+        "location": "Uinta National ForestUtah County, Utah",
+        "description": "",
+        "longitude": "111.579",
+        "latitude": "40.392",
+        "website": "http://www.sundanceresort.com"
+    },
+    {
+        "name": "Woodward Park City",
+        "location": "TODO",
+        "description": "",
+        "longitude": "111.579",
+        "latitude": "40.392",
+        "website": "TODO"
+    },
+    {
+        "name": "Antelope Butte Mountain Recreational Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "107.77917",
+        "latitude": "44.53556",
+        "website": "TODO"
+    },
+    {
+        "name": "Beartooth Basin Summer Ski Area",
+        "location": "Beartooth National ForestPark County, Wyoming, U.S.",
+        "description": "",
+        "longitude": "109.435",
+        "latitude": "44.975",
+        "website": "http://www.beartoothbasin.com/"
+    },
+    {
+        "name": "Grand Targhee",
+        "location": "Alta, Wyoming, U.S.",
+        "description": "",
+        "longitude": "110.957",
+        "latitude": "43.789",
+        "website": "http://www.grandtarghee.com"
+    },
+    {
+        "name": "Hogadon",
+        "location": "Casper Mountain, Natrona County, Wyoming",
+        "description": "",
+        "longitude": "106.3394278",
+        "latitude": "42.7449611",
+        "website": "http://hogadon.net/"
+    },
+    {
+        "name": "Jackson Hole",
+        "location": "Teton Village, Wyoming, U.S.",
+        "description": "",
+        "longitude": "110.89",
+        "latitude": "43.59",
+        "website": "https://jacksonhole.com/"
+    },
+    {
+        "name": "Meadowlark Ski Lodge",
+        "location": "TODO",
+        "description": "",
+        "longitude": "107.44806",
+        "latitude": "44.03472",
+        "website": "TODO"
+    },
+    {
+        "name": "Pine Creek",
+        "location": "TODO",
+        "description": "",
+        "longitude": "110.95556",
+        "latitude": "42.08500",
+        "website": "TODO"
+    },
+    {
+        "name": "Sleeping Giant Ski Area & Zipline",
+        "location": "TODO",
+        "description": "",
+        "longitude": "109.05722",
+        "latitude": "44.52333",
+        "website": "https://codywy.gov"
+    },
+    {
+        "name": "Snow King Mountain",
+        "location": "Jackson, Wyoming, U.S.",
+        "description": "",
+        "longitude": "110.761",
+        "latitude": "43.472",
+        "website": "http://www.snowkingmountain.com/"
+    },
+    {
+        "name": "Snowy Range",
+        "location": "Snowy Range, Albany County, Wyoming",
+        "description": "",
+        "longitude": "106.183441",
+        "latitude": "41.341231",
+        "website": "http://www.snowyrangeski.com/"
+    },
+    {
+        "name": "White Pine",
+        "location": "Wind River Range, Sublette County, Wyoming",
+        "description": "",
+        "longitude": "109.7581722",
+        "latitude": "42.9778389",
+        "website": "http://www.whitepineski.com/"
+    },
+    {
+        "name": "Arctic Valley",
+        "location": "Anchorage, Alaska, USA",
+        "description": "",
+        "longitude": "149.65056",
+        "latitude": "61.24667",
+        "website": "https://arcticvalley.org"
+    },
+    {
+        "name": "Alyeska",
+        "location": "Girdwood, Anchorage, Alaska",
+        "description": "",
+        "longitude": "149.0982",
+        "latitude": "60.9705",
+        "website": "http://www.alyeskaresort.com/"
+    },
+    {
+        "name": "Eaglecrest",
+        "location": "Douglas Island,, Alaska\u00a0United States",
+        "description": "",
+        "longitude": "134.51528",
+        "latitude": "58.27611",
+        "website": "http://skieaglecrest.com/"
+    },
+    {
+        "name": "Hilltop",
+        "location": "Anchorage, Alaska, US",
+        "description": "",
+        "longitude": "149.74500",
+        "latitude": "61.14083",
+        "website": "http://www.hilltopskiarea.org/"
+    },
+    {
+        "name": "Majestic Heli Ski",
+        "location": "TODO",
+        "description": "",
+        "longitude": "149.74500",
+        "latitude": "61.14083",
+        "website": "TODO"
+    },
+    {
+        "name": "Moose Mountain",
+        "location": "Goldstream, near Fairbanks, Alaska, US",
+        "description": "",
+        "longitude": "147.99056",
+        "latitude": "64.94056",
+        "website": "TODO"
+    },
+    {
+        "name": "Mount Eyak",
+        "location": "Cordova, Alaska ",
+        "description": "",
+        "longitude": "145.75000",
+        "latitude": "60.55000",
+        "website": "TODO"
+    },
+    {
+        "name": "Ski Land",
+        "location": "Fairbanks, Alaska",
+        "description": "",
+        "longitude": "147.40917",
+        "latitude": "65.04889",
+        "website": "http://www.skilandfairbanks.com/"
+    },
+    {
+        "name": "Alpine Meadows",
+        "location": "Ward PeakTahoe National Forest, Placer County, California",
+        "description": "",
+        "longitude": "120.239",
+        "latitude": "39.164",
+        "website": "https://www.palisadestahoe.com"
+    },
+    {
+        "name": "Alta Sierra",
+        "location": "TODO",
+        "description": "",
+        "longitude": "120.239",
+        "latitude": "39.164",
+        "website": "TODO"
+    },
+    {
+        "name": "Badger Pass",
+        "location": "Yosemite National Park, California",
+        "description": "",
+        "longitude": "119.6636",
+        "latitude": "37.66194",
+        "website": "http://www.travelyosemite.com/winter/yosemite-ski-snowboard-area/"
+    },
+    {
+        "name": "Bear Mountain",
+        "location": "Bear MountainSan Bernardino National Forest",
+        "description": "",
+        "longitude": "116.8602",
+        "latitude": "34.2267",
+        "website": "http://www.bearmountain.com/"
+    },
+    {
+        "name": "Bear Valley",
+        "location": "Alpine County, California,\u00a0U.S.",
+        "description": "",
+        "longitude": "120.044",
+        "latitude": "38.492",
+        "website": "http://www.bearvalley.com"
+    },
+    {
+        "name": "Boreal Mountain",
+        "location": "Boreal Ridge",
+        "description": "",
+        "longitude": "120.3511",
+        "latitude": "39.3317",
+        "website": "http://www.rideboreal.com"
+    },
+    {
+        "name": "Buckhorn Ski Club",
+        "location": "Waterman MountainSan Gabriel MountainsAngeles National Forest",
+        "description": "",
+        "longitude": "117.91437",
+        "latitude": "34.34457",
+        "website": "http://www.orgsites.com/ca/buckhorn/index.html"
+    },
+    {
+        "name": "China Peak",
+        "location": "Chinese Peak",
+        "description": "",
+        "longitude": "119.1583",
+        "latitude": "37.2297",
+        "website": "http://www.skichinapeak.com"
+    },
+    {
+        "name": "Coppervale Ski Area",
+        "location": "Coppervale Ski Area",
+        "description": "",
+        "longitude": "120.904",
+        "latitude": "40.345",
+        "website": "TODO"
+    },
+    {
+        "name": "Dodge Ridge",
+        "location": "Dodge Ridge",
+        "description": "",
+        "longitude": "119.9564",
+        "latitude": "38.1896",
+        "website": "http://www.dodgeridge.com/"
+    },
+    {
+        "name": "Donner Ski Ranch",
+        "location": "Donner SummitTahoe National Forest",
+        "description": "",
+        "longitude": "120.3300194",
+        "latitude": "39.3183139",
+        "website": "http://www.donnerskiranch.com/"
+    },
+    {
+        "name": "Granlibakken",
+        "location": "TODO",
+        "description": "",
+        "longitude": "120.1551",
+        "latitude": "39.1556",
+        "website": "TODO"
+    },
+    {
+        "name": "Heavenly Mountain",
+        "location": "El Dorado-Toiyabe National ForestsEl Dorado County, California / Douglas County, Nevada/Alpine County, California",
+        "description": "",
+        "longitude": "119.9400",
+        "latitude": "38.9353",
+        "website": "http://www.skiheavenly.com"
+    },
+    {
+        "name": "Homewood Mountain",
+        "location": "Ellis Peak Tahoe National Forest",
+        "description": "",
+        "longitude": "120.1755",
+        "latitude": "39.0827",
+        "website": "http://www.skihomewood.com/"
+    },
+    {
+        "name": "June Mountain",
+        "location": "June MountainInyo National Forest",
+        "description": "",
+        "longitude": "119.0906",
+        "latitude": "37.7683",
+        "website": "http://www.junemountain.com"
+    },
+    {
+        "name": "Kirkwood Mountain",
+        "location": "Thimble PeakCovered Wagon PeakAlpine County, CA  Amador County, CA",
+        "description": "",
+        "longitude": "120.068",
+        "latitude": "38.684",
+        "website": "http://www.kirkwood.com"
+    },
+    {
+        "name": "Mammoth Mountain",
+        "location": "Mammoth MountainSierra NevadaMono & Madera Counties, California",
+        "description": "",
+        "longitude": "119.03250",
+        "latitude": "37.63056",
+        "website": "http://www.mammothmountain.com/"
+    },
+    {
+        "name": "Mount Baldy Ski Lifts",
+        "location": "Mount San Antonio and Telegraph Peak,California, U.S.",
+        "description": "",
+        "longitude": "117.62",
+        "latitude": "34.27",
+        "website": "http://mtbaldyresort.com"
+    },
+    {
+        "name": "Mount Shasta Ski Park",
+        "location": "Mount Shasta, California",
+        "description": "",
+        "longitude": "122.20389",
+        "latitude": "41.32083",
+        "website": "http://www.skipark.com"
+    },
+    {
+        "name": "Mount Waterman",
+        "location": "Waterman MountainSan Gabriel MountainsAngeles National Forest",
+        "description": "",
+        "longitude": "117.928611",
+        "latitude": "34.349722",
+        "website": "http://www.mtwaterman.org/"
+    },
+    {
+        "name": "Mountain High",
+        "location": "Big Pines, Los Angeles County, California",
+        "description": "",
+        "longitude": "117.69323",
+        "latitude": "34.37472",
+        "website": "http://www.mthigh.com"
+    },
+    {
+        "name": "Northstar California",
+        "location": "Placer County, California",
+        "description": "",
+        "longitude": "120.125",
+        "latitude": "39.264",
+        "website": "http://northstarcalifornia.com"
+    },
+    {
+        "name": "Palisades Tahoe",
+        "location": "1960 Olympic Valley Road, Olympic Valley, CA",
+        "description": "",
+        "longitude": "120.235",
+        "latitude": "39.196",
+        "website": "http://www.palisadestahoe.com"
+    },
+    {
+        "name": "Sierra-at-Tahoe",
+        "location": "Twin Bridges",
+        "description": "",
+        "longitude": "120.0806",
+        "latitude": "38.8002",
+        "website": "http://www.sierraattahoe.com"
+    },
+    {
+        "name": "Snow Summit",
+        "location": "Snow Summit",
+        "description": "",
+        "longitude": "116.8911",
+        "latitude": "34.2286",
+        "website": "http://www.snowsummit.com"
+    },
+    {
+        "name": "Snow Valley",
+        "location": "Running SpringsSan Bernardino County, California",
+        "description": "",
+        "longitude": "117.037423",
+        "latitude": "34.223375",
+        "website": "http://www.snow-valley.com//"
+    },
+    {
+        "name": "Soda Springs",
+        "location": "TODO",
+        "description": "",
+        "longitude": "117.037423",
+        "latitude": "34.223375",
+        "website": "TODO"
+    },
+    {
+        "name": "Sugar Bowl",
+        "location": "629 Sugar Bowl Rd, Norden, CA 95724",
+        "description": "",
+        "longitude": "120.33583",
+        "latitude": "39.30444",
+        "website": "http://www.sugarbowl.com"
+    },
+    {
+        "name": "Tahoe Donner Downhill",
+        "location": "Tahoe Donner",
+        "description": "",
+        "longitude": "120.2590",
+        "latitude": "39.3549",
+        "website": "http://www.skitahoedonner.com"
+    },
+    {
+        "name": "Diamond Peak",
+        "location": "Incline Village, Nevada, U.S.",
+        "description": "",
+        "longitude": "119.924",
+        "latitude": "39.254",
+        "website": "https://www.diamondpeak.com/"
+    },
+    {
+        "name": "Elko Snobowl Ski and Bike Park",
+        "location": "TODO",
+        "description": "",
+        "longitude": "119.924",
+        "latitude": "39.254",
+        "website": "TODO"
+    },
+    {
+        "name": "Las Vegas Ski and Snowboard Resort (Lee Canyon)",
+        "location": "Clark County, Nevada",
+        "description": "",
+        "longitude": "115.680759",
+        "latitude": "36.301638",
+        "website": "TODO"
+    },
+    {
+        "name": "Mount Rose",
+        "location": "Nevada",
+        "description": "",
+        "longitude": "119.88583",
+        "latitude": "39.32917",
+        "website": "http://www.skirose.com/"
+    },
+    {
+        "name": "Sky Tavern Ski Area",
+        "location": "TODO",
+        "description": "",
+        "longitude": "119.88583",
+        "latitude": "39.32917",
+        "website": "TODO"
+    },
+    {
+        "name": "Anthony Lakes",
+        "location": "Blue Mountains,Baker and Union counties,Oregon, U.S.",
+        "description": "",
+        "longitude": "118.235",
+        "latitude": "44.964",
+        "website": "http://www.anthonylakes.com/"
+    },
+    {
+        "name": "Cooper Spur",
+        "location": "Mount Hood, Oregon, US",
+        "description": "",
+        "longitude": "121.60501",
+        "latitude": "45.41228",
+        "website": "http://www.cooperspur.com/"
+    },
+    {
+        "name": "Ferguson Ridge",
+        "location": "Wallowa Mountains, Oregon, US",
+        "description": "",
+        "longitude": "121.60501",
+        "latitude": "45.41228",
+        "website": "http://www.skifergi.com"
+    },
+    {
+        "name": "Hoodoo",
+        "location": "Santiam Pass, Oregon, U.S.",
+        "description": "",
+        "longitude": "121.872",
+        "latitude": "44.409",
+        "website": "http://skihoodoo.com/"
+    },
+    {
+        "name": "Mount Ashland",
+        "location": "Mount Ashland, Oregon",
+        "description": "",
+        "longitude": "122.71667",
+        "latitude": "42.08333",
+        "website": "http://www.mtashland.com"
+    },
+    {
+        "name": "Mount Bachelor",
+        "location": "Deschutes County, Oregon, United States",
+        "description": "",
+        "longitude": "121.677",
+        "latitude": "44.003",
+        "website": "http://www.mtbachelor.com"
+    },
+    {
+        "name": "Mount Hood Meadows",
+        "location": "Mount Hood, Oregon",
+        "description": "",
+        "longitude": "121.66250",
+        "latitude": "45.32889",
+        "website": "http://www.skihood.com/"
+    },
+    {
+        "name": "Mount Hood Skibowl",
+        "location": "Mount Hood, Clackamas County, Oregon, US",
+        "description": "",
+        "longitude": "121.773212",
+        "latitude": "45.30189",
+        "website": "http://www.skibowl.com/"
+    },
+    {
+        "name": "Timberline Lodge",
+        "location": "Mount Hood, Clackamas County, Oregon, US",
+        "description": "",
+        "longitude": "121.71",
+        "latitude": "45.33",
+        "website": "http://www.timberlinelodge.com/"
+    },
+    {
+        "name": "Summit Pass",
+        "location": "Mount Hood, Oregon, US",
+        "description": "",
+        "longitude": "121.7472000",
+        "latitude": "45.303000",
+        "website": "https://www.timberlinelodge.com/mountain/summit-pass"
+    },
+    {
+        "name": "Warner Canyon",
+        "location": "Lake County, Oregon, US",
+        "description": "",
+        "longitude": "120.29583",
+        "latitude": "42.23749",
+        "website": "https://www.warnercanyonski.com/"
+    },
+    {
+        "name": "Willamette Pass",
+        "location": "Cascade Range,Klamath County, Oregon\u00a0United States",
+        "description": "",
+        "longitude": "122.036",
+        "latitude": "43.60",
+        "website": "http://www.willamettepass.ski"
+    },
+    {
+        "name": "Summit Pass",
+        "location": "Mount Hood, Oregon, US",
+        "description": "",
+        "longitude": "121.7472000",
+        "latitude": "45.303000",
+        "website": "https://www.timberlinelodge.com/mountain/summit-pass"
+    },
+    {
+        "name": "49 Degrees North",
+        "location": "Colville National ForestStevens County, Washington",
+        "description": "",
+        "longitude": "117.563",
+        "latitude": "48.301",
+        "website": "http://www.ski49n.com/"
+    },
+    {
+        "name": "Badger Mountain",
+        "location": "Douglas County, Washington, USA",
+        "description": "",
+        "longitude": "120.12978",
+        "latitude": "47.61273",
+        "website": "http://www.skibadgermt.com/"
+    },
+    {
+        "name": "Crystal Mountain",
+        "location": "Mount Baker-Snoqualmie National Forest\nPierce County,Washington, U.S.",
+        "description": "",
+        "longitude": "121.48",
+        "latitude": "46.93",
+        "website": "https://www.crystalmountainresort.com/"
+    },
+    {
+        "name": "Echo Valley",
+        "location": "Chelan County, Washington, USA",
+        "description": "",
+        "longitude": "120.05611",
+        "latitude": "47.93583",
+        "website": "https://skiechovalley.com/"
+    },
+    {
+        "name": "Hurricane Ridge",
+        "location": "Olympic National Park, Washington, U.S.",
+        "description": "",
+        "longitude": "123.493",
+        "latitude": "47.971",
+        "website": "http://www.hurricaneridge.net"
+    },
+    {
+        "name": "Leavenworth Ski Hill",
+        "location": "Leavenworth, Washington, United States",
+        "description": "",
+        "longitude": "120.66859",
+        "latitude": "47.61437",
+        "website": "http://www.skileavenworth.com/"
+    },
+    {
+        "name": "Loup Loup Ski Bowl",
+        "location": "Loup Loup Pass, Okanogan County, Washington, USA",
+        "description": "",
+        "longitude": "119.91278",
+        "latitude": "48.39472",
+        "website": "http://www.skitheloup.com/"
+    },
+    {
+        "name": "Meany Lodge",
+        "location": "near Stampede Pass, Washington, US",
+        "description": "",
+        "longitude": "121.32056",
+        "latitude": "47.28028",
+        "website": "http://www.meanylodge.org"
+    },
+    {
+        "name": "Mission Ridge",
+        "location": "Chelan County, Washington",
+        "description": "",
+        "longitude": "120.399",
+        "latitude": "47.292",
+        "website": "http://www.missionridge.com"
+    },
+    {
+        "name": "Mt. Baker",
+        "location": "Glacier, Washington, U.S.",
+        "description": "",
+        "longitude": "121.654",
+        "latitude": "48.862",
+        "website": "http://www.mtbaker.us"
+    },
+    {
+        "name": "Mount Spokane",
+        "location": "Mount Spokane State Park, Spokane County,Washington, U.S.",
+        "description": "",
+        "longitude": "117.097",
+        "latitude": "47.922",
+        "website": "https://www.mtspokane.com"
+    },
+    {
+        "name": "Sahalie Ski Club",
+        "location": "TODO",
+        "description": "",
+        "longitude": "117.097",
+        "latitude": "47.922",
+        "website": "TODO"
+    },
+    {
+        "name": "Sitzmark Ski Area",
+        "location": "Okanogan County, Washington, U.S.",
+        "description": "",
+        "longitude": "119.164",
+        "latitude": "48.865",
+        "website": "https://www.facebook.com/SitzmarkSkiArea/"
+    },
+    {
+        "name": "Ski Bluewood",
+        "location": "Umatilla National ForestColumbia County,Washington, U.S.",
+        "description": "",
+        "longitude": "117.851",
+        "latitude": "46.082",
+        "website": "http://www.bluewood.com"
+    },
+    {
+        "name": "Stevens Pass",
+        "location": "King County, near Skykomish,Washington, U.S.",
+        "description": "",
+        "longitude": "121.08889",
+        "latitude": "47.74472",
+        "website": "https://www.stevenspass.com/"
+    }
+]
