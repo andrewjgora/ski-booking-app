@@ -1,4 +1,4 @@
-// src/types/resorts.ts
+// src/types/types.ts
 export interface Resort {
   id: number;
   name: string;
@@ -8,7 +8,12 @@ export interface Resort {
   latitude: number;
 }
 
-export interface UserLocation {
+export type Coordinate = {
   latitude: number;
   longitude: number;
 }
+
+export type BoundingBox = {
+  swCorner: Coordinate;
+  neCorner: Coordinate;
+};
