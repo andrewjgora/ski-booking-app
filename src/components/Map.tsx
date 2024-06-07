@@ -3,7 +3,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { Resort, UserLocation } from '@/types/resorts';
+import { Resort, Coordinate, BoundingBox } from '@/types/types';
+import { useResorts } from '@/context/ResortsContext';
 
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
 
@@ -11,8 +12,8 @@ interface MapProps {
   initialResorts: Resort[];
 }
 
-const getGeoLocation = (): UserLocation => {
-  let location: UserLocation = {longitude: 0, latitude: 0}
+const getGeoLocation = (): Coordinate => {
+  let location: Coordinate = {longitude: 0, latitude: 0}
   if(navigator.geolocation) {
     navigator.geolocation.getCurrentPosition((position) => {
       location.latitude = position.coords.latitude;
@@ -26,13 +27,15 @@ const getGeoLocation = (): UserLocation => {
 }
 
 const Map = ({ initialResorts }: MapProps) => {
-  // console.log('MAP resorts:', resorts)
+  const { resorts, handleMapChange } = useResorts();
+  console.log('MAP resorts:', resorts?.length, initialResorts.length)
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
-  const userLocation: UserLocation = getGeoLocation();
-  const [lng, setLng] = useState(initialResorts[0]?.longitude ?? userLocation.longitude);
-  const [lat, setLat] = useState(initialResorts[0]?.latitude ?? userLocation.latitude);
+  const userLocation: Coordinate = getGeoLocation();
+  const [lng, setLng] = useState((resorts && resorts[0]?.longitude) ?? initialResorts[0]?.longitude ?? userLocation.longitude);
+  const [lat, setLat] = useState((resorts && resorts[0]?.latitude) ?? initialResorts[0]?.latitude ?? userLocation.latitude);
   const [zoom, setZoom] = useState(5);
+  const markers = useRef<mapboxgl.Marker[]>([]);
 
 
   useEffect(() => {
@@ -57,6 +60,7 @@ const Map = ({ initialResorts }: MapProps) => {
         const bounds = mapRef.current!.getBounds();
         const ne = bounds.getNorthEast();
         const sw = bounds.getSouthWest();
+
         // TODO fetch resorts in bounds
         // fetchResortsInBounds(sw.lng, sw.lat, ne.lng, ne.lat);
       });
@@ -69,22 +73,48 @@ const Map = ({ initialResorts }: MapProps) => {
       mapRef.current.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
       // Add markers for each resort
-      initialResorts.forEach(resort => {
-        new mapboxgl.Marker()
+      const currentResorts: Resort[] = resorts ?? initialResorts;
+      console.log('ASDF ', currentResorts.length);
+      currentResorts.forEach(resort => {
+        const marker = new mapboxgl.Marker()
           .setLngLat([resort.longitude, resort.latitude])
           .setPopup(
             new mapboxgl.Popup({ offset: 25 }) // add popups
               .setText(resort.name)
           )
           .addTo(mapRef.current!);
+        markers.current.push(marker);
       });
+
+      console.log('mapRef.current:', mapRef.current);
   });
+
+  useEffect(() => {
+    if(!resorts || !mapRef.current) return;
+    markers.current.forEach(marker => marker.remove());
+
+    console.log('ASDF ', resorts.length);
+    const newMarkers: mapboxgl.Marker[] = [];
+    (resorts as Resort[]).forEach(resort => {
+      const marker = new mapboxgl.Marker()
+        .setLngLat([resort.longitude, resort.latitude])
+        .setPopup(
+          new mapboxgl.Popup({ offset: 25 }) // add popups
+            .setText(resort.name)
+        )
+        .addTo(mapRef.current!);
+        newMarkers.push(marker);
+    });
+    markers.current.splice(0, markers.current.length, ...newMarkers);
+    mapRef.current.flyTo({center: [resorts[0].longitude, resorts[0].latitude], zoom: 5});
+  }, [resorts]);
+
 
   return (
     <>
       <div className="sidebar w-7/12 absolute z-10 bg-slate-800 text-center text-slate-200 rounded-md mt-2 opacity-80 select-none py-2 lg:whitespace-nowrap">
         <p>Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}</p>
-        <p>Displaying {initialResorts.length} {initialResorts.length === 1 ? 'result' : 'results'}</p>
+        <p>Displaying {(resorts || initialResorts).length} {(resorts || initialResorts).length === 1 ? 'result' : 'results'}</p>
       </div>
       <div className="map-container !h-full" ref={mapContainerRef} style={{ height: '100%', width: '100%' }} ></div>
     </>
