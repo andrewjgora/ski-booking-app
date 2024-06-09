@@ -1,12 +1,12 @@
 // src/components/SearchBar.js
 'use client';
 import React, { ChangeEvent, useState } from "react";
-import { useResorts } from "@/context/ResortsContext";
+import { useRouter } from "next/navigation";
 
 
 export const Search = ({...props}) => {
   const [query, setQuery] = useState('');
-  const { handleSearch } = useResorts();
+  const router = useRouter();
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
@@ -14,7 +14,8 @@ export const Search = ({...props}) => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    handleSearch(query);
+    // handleSearch(query);
+    router.push(query ? `/dashboard?q=${query}` : `/dashboard`);
     console.log('searching for:', query);
   };
 
