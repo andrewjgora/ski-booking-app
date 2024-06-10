@@ -1,7 +1,6 @@
-// prisma/seed.js
-import { PrismaClient } from '@prisma/client';
+// src/lib/seed.js
 import * as fs from 'fs';
-const prisma = new PrismaClient();
+// const prisma = new PrismaClient();
 
 
 async function main() {
@@ -11,13 +10,13 @@ async function main() {
   await Promise.all(skiResorts.map(async (resort) => {
     resort.latitude = parseFloat(resort.latitude);
     resort.longitude = parseFloat(resort.longitude)*-1;
-    await prisma.resort.create({
-      data: resort,
-    });
+    // await prisma.resort.create({
+    //   data: resort,
+    // });
   }));
-  const resorts = await prisma.resort.findMany();
+  // const resorts = await prisma.resort.findMany();
 
-  console.log(`Seeding complete. ${resorts.length} resorts added to the database.`);
+  // console.log(`Seeding complete. ${resorts.length} resorts added to the database.`);
 }
 
 main()
@@ -26,5 +25,5 @@ main()
     process.exit(1);
   })
   .finally(async () => {
-    await prisma.$disconnect();
+    // await prisma.$disconnect();
   });

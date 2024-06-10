@@ -5,7 +5,8 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { Resort, Coordinate, BoundingBox } from '@/types/types';
 
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN as string;
+const mapboxToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
+if(mapboxToken) mapboxgl.accessToken = mapboxToken;
 
 interface MapProps {
   resorts: Resort[];
@@ -73,8 +74,6 @@ const Map = ({ resorts }: MapProps) => {
       mapRef.current.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
       // Add markers for each resort
-      // const currentResorts: Resort[] = resorts ?? resorts;
-      // const currentResorts: Resort[] = resorts;
       // console.log('ASDF ', currentResorts.length);
       resorts.forEach(resort => {
         const marker = new mapboxgl.Marker()
@@ -87,7 +86,7 @@ const Map = ({ resorts }: MapProps) => {
         markers.current.push(marker);
       });
 
-      console.log('mapRef.current:', mapRef.current);
+      // console.log('mapRef.current:', mapRef.current);
   });
 
   useEffect(() => {
@@ -117,7 +116,7 @@ const Map = ({ resorts }: MapProps) => {
         <p>Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}</p>
         <p>Displaying {(resorts).length} {(resorts).length === 1 ? 'result' : 'results'}</p>
       </div>
-      <div id="mapContainer" className="map-container !h-full" ref={mapContainerRef} style={{ height: '100%', width: '100%' }} ></div>
+      <div id="mapContainer" data-testid="mapContainer" className="map-container !h-full" ref={mapContainerRef} style={{ height: '100%', width: '100%' }} ></div>
     </>
   );
 };

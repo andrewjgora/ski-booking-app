@@ -1,7 +1,6 @@
 //src/app/api/resorts/route.ts
 "use server";
 import { BoundingBox, Resort } from "@/types/types";
-// import { prisma } from "@/lib/prisma";
 import pool from "@/lib/db";
 import { NextRequest, NextResponse } from "next/server";
 
@@ -20,7 +19,7 @@ export async function GET(request: NextRequest) {
   console.log('GET /api/resorts params: ', search, swLng, swLat, neLng, neLat);
   const resorts = await getResorts(search, bounds);
   console.log('GET /api/resorts returning ', resorts.length, ' resorts');
-  return new Response(JSON.stringify(resorts));
+  return new NextResponse(JSON.stringify(resorts));
 }
 
 async function getResorts(query?: string, boundingBox?: BoundingBox): Promise<Resort[]> {
@@ -37,15 +36,6 @@ async function searchResorts(query: string): Promise<Resort[]> {
 
   console.log('searchResorts -> search for ', query);
   try {
-    // const resorts = await prisma.resort.findMany({
-    //   where: {
-    //     OR: [
-    //       { name: { contains: query, mode: 'insensitive' } },
-    //       { location: { contains: query, mode: 'insensitive' } },
-    //       { description: { contains: query, mode: 'insensitive' } },
-    //     ],
-    //   },
-    // });
     const result = await pool.query(`SELECT * FROM "Resort" WHERE name ILIKE $1 OR location ILIKE $1 OR description ILIKE $1`, [`%${query}%`]);
     const resorts = result.rows;
     console.log(`searchResorts -> returning ${resorts.length} resorts`)
@@ -61,16 +51,6 @@ async function getResortsInBounds(boundingBox: BoundingBox): Promise<Resort[]> {
 
   console.log('getResortsInBounds', boundingBox);
   try {
-    // const resorts = await prisma.resort.findMany({
-    //   where: {
-    //     AND: [
-    //       { latitude: { gte: boundingBox.swCorner.latitude } },
-    //       { latitude: { lte: boundingBox.neCorner.latitude } },
-    //       { longitude: { gte: boundingBox.swCorner.longitude } },
-    //       { longitude: { lte: boundingBox.neCorner.longitude } },
-    //     ],
-    //   },
-    // });
     const result = await pool.query(`SELECT * FROM "Resort" WHERE latitude BETWEEN $1 AND $2 AND longitude BETWEEN $3 AND $4`, [boundingBox.swCorner.latitude, boundingBox.neCorner.latitude, boundingBox.swCorner.longitude, boundingBox.neCorner.longitude]);
     const resorts = result.rows;
     return resorts;
@@ -84,21 +64,6 @@ async function searchResortsInBounds(query: string, boundingBox: BoundingBox): P
 
   console.log('getResorts -> search ', query);
   try {
-    // const resorts = await prisma.resort.findMany({
-    //     where: {
-    //       OR: [
-    //         { name: { contains: query, mode: 'insensitive' } },
-    //         { location: { contains: query, mode: 'insensitive' } },
-    //         { description: { contains: query, mode: 'insensitive' } },
-    //       ],
-    //       AND: [
-    //         { latitude: { gte: boundingBox.swCorner.latitude } },
-    //         { latitude: { lte: boundingBox.neCorner.latitude } },
-    //         { longitude: { gte: boundingBox.swCorner.longitude } },
-    //         { longitude: { lte: boundingBox.neCorner.longitude } },
-    //       ],
-    //     },
-    //   });
     const result = await pool.query(`SELECT * FROM "Resort" WHERE (name ILIKE $1 OR location ILIKE $1 OR description ILIKE $1) AND latitude BETWEEN $2 AND $3 AND longitude BETWEEN $4 AND $5`, [`%${query}%`, boundingBox.swCorner.latitude, boundingBox.neCorner.latitude, boundingBox.swCorner.longitude, boundingBox.neCorner.longitude]);
     const resorts = result.rows;
     return resorts;
@@ -112,7 +77,6 @@ async function getAllResorts(): Promise<Resort[]> {
 
     console.log('getAllResorts');
     try {
-      // const resorts = await prisma.resort.findMany();
       const result = await pool.query(`SELECT * FROM "Resort"`);
       const resorts = result.rows;
       return resorts;
