@@ -106,7 +106,7 @@ const Map = ({ resorts }: MapProps) => {
         newMarkers.push(marker);
     });
     markers.current.splice(0, markers.current.length, ...newMarkers);
-    mapRef.current.flyTo({center: [resorts[0].longitude, resorts[0].latitude], zoom: 5});
+    if(resorts[0]) mapRef.current.flyTo({center: [resorts[0].longitude, resorts[0].latitude], zoom: 5});
   }, [resorts]);
 
 

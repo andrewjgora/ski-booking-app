@@ -24,9 +24,9 @@ export default async function Page({ searchParams }: { searchParams: { [key: str
     }
     const url = new URL('http://localhost:3000/api/resorts');
     url.search = params.toString();
-    const response = await fetch(url.toString());
+    const response = await fetch(url.toString(), { cache: 'no-store' });
     resorts = await response.json();
-    console.log('page resorts:', resorts.length);
+    // console.log('page resorts:', resorts.length);
   } catch (error) {
     console.error(error);
   }
