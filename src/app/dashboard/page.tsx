@@ -34,7 +34,7 @@ export default async function Page({ searchParams }: { searchParams: { [key: str
 
   return (
     <main className="h-full flex flex-col items-center">
-      <Map initialResorts={resorts}></Map>
+      <Map resorts={resorts}></Map>
     </main>
   );
 }
