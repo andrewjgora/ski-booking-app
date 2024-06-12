@@ -31,8 +31,7 @@ const Map = ({ resorts }: MapProps) => {
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const userLocation: Coordinate = getGeoLocation();
-  // const [lng, setLng] = useState((resorts && resorts[0]?.longitude) ?? resorts[0]?.longitude ?? userLocation.longitude);
-  // const [lat, setLat] = useState((resorts && resorts[0]?.latitude) ?? resorts[0]?.latitude ?? userLocation.latitude);
+  console.log('userLocation:', userLocation, userLocation.longitude, userLocation.latitude);
   const [lng, setLng] = useState(resorts[0]?.longitude ?? userLocation.longitude);
   const [lat, setLat] = useState(resorts[0]?.latitude ?? userLocation.latitude);
   const [zoom, setZoom] = useState(5);
@@ -61,9 +60,10 @@ const Map = ({ resorts }: MapProps) => {
         const bounds = mapRef.current!.getBounds();
         const ne = bounds.getNorthEast();
         const sw = bounds.getSouthWest();
+        
 
         // TODO fetch resorts in bounds
-        // fetchResortsInBounds(sw.lng, sw.lat, ne.lng, ne.lat);
+
       });
 
       mapRef.current.on('load', (e) => {
