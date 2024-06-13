@@ -42,6 +42,7 @@ const Map = ({ resorts }: MapProps) => {
     if (mapRef.current || !mapContainerRef.current) return;
 
     // Instantiate a new Mapbox map
+    try {
       mapRef.current = new mapboxgl.Map({
         container: mapContainerRef.current,
         style: 'mapbox://styles/mapbox/streets-v11',
@@ -60,10 +61,6 @@ const Map = ({ resorts }: MapProps) => {
         const bounds = mapRef.current!.getBounds();
         const ne = bounds.getNorthEast();
         const sw = bounds.getSouthWest();
-        
-
-        // TODO fetch resorts in bounds
-
       });
 
       mapRef.current.on('load', (e) => {
@@ -85,6 +82,9 @@ const Map = ({ resorts }: MapProps) => {
           .addTo(mapRef.current!);
         markers.current.push(marker);
       });
+    } catch (error) {
+      console.error('Error creating map:', error);
+    }
 
       // console.log('mapRef.current:', mapRef.current);
   });
