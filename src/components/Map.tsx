@@ -3,50 +3,56 @@
 import React, { useState, useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { Resort, Coordinate, BoundingBox } from '@/types/types';
+import { Resort } from '@/types/types';
+import Spinner from '@/components/Spinner';
 
 const mapboxToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
 if(mapboxToken) mapboxgl.accessToken = mapboxToken;
 
-interface MapProps {
+type MapProps = {
   resorts: Resort[];
 }
 
-const getGeoLocation = (): Coordinate => {
-  let location: Coordinate = {longitude: 0, latitude: 0}
-  if(navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition((position) => {
-      location.latitude = position.coords.latitude;
-      location.longitude = position.coords.longitude;
-    },
-    (error) => {
-      console.error('Error ' + error.code + ': ' + error.message);
-    })
-  }
-  return location;
-}
-
 const Map = ({ resorts }: MapProps) => {
-  // console.log('MAP resorts:', resorts?.length, resorts.length)
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
-  const userLocation: Coordinate = getGeoLocation();
-  console.log('userLocation:', userLocation, userLocation.longitude, userLocation.latitude);
-  const [lng, setLng] = useState(resorts[0]?.longitude ?? userLocation.longitude);
-  const [lat, setLat] = useState(resorts[0]?.latitude ?? userLocation.latitude);
+  const [initialLocation, setInitialLocation] = useState<{ lat: number, lng: number } | null>(null);
+  const [lng, setLng] = useState(resorts[0]?.longitude ?? 0);
+  const [lat, setLat] = useState(resorts[0]?.latitude ?? 0);
   const [zoom, setZoom] = useState(5);
+  const [loading, setLoading] = useState(true);
   const markers = useRef<mapboxgl.Marker[]>([]);
 
-
+  // Get user location
   useEffect(() => {
-    if (mapRef.current || !mapContainerRef.current) return;
+    if(!navigator.geolocation) return;
+    navigator.geolocation.getCurrentPosition((position) => {
+      setInitialLocation({lat: position.coords.latitude, lng: position.coords.longitude});
+      if(resorts.length === 0) {
+        setLat(position.coords.latitude);
+        setLng(position.coords.longitude);
+      }
+    }, (error) => {
+      console.error('Error getting user location:', error);
+      setInitialLocation({lat: 39.6433, lng: -106.3781});
+      if(resorts.length === 0) {
+        setLat(39.6433);
+        setLng(-106.3781);
+      }
+    });
+  }, [resorts.length]);
+
+  // Initialize map
+  useEffect(() => {
+    if (mapRef.current || !initialLocation || !mapContainerRef.current) return;
 
     // Instantiate a new Mapbox map
     try {
+      console.log('creating map with center location: ', lng, lat);
       mapRef.current = new mapboxgl.Map({
         container: mapContainerRef.current,
         style: 'mapbox://styles/mapbox/streets-v11',
-        center: [lng, lat],
+        center: [lng || initialLocation.lng, lat || initialLocation.lat],
         zoom: zoom,
         attributionControl: false,
       });
@@ -57,27 +63,27 @@ const Map = ({ resorts }: MapProps) => {
         setZoom(parseFloat(mapRef.current!.getZoom().toFixed(2)));
       });
 
-      mapRef.current.on('moveend', () => {
-        const bounds = mapRef.current!.getBounds();
-        const ne = bounds.getNorthEast();
-        const sw = bounds.getSouthWest();
-      });
+      // mapRef.current.on('moveend', () => {
+      //   const bounds = mapRef.current!.getBounds();
+      //   const ne = bounds.getNorthEast();
+      //   const sw = bounds.getSouthWest();
+      // });
 
-      mapRef.current.on('load', (e) => {
+      mapRef.current.on('load', () => {
         mapRef.current!.resize();
+        setLoading(false);
       });
 
       // Add navigation control (the +/- zoom buttons)
       mapRef.current.addControl(new mapboxgl.NavigationControl(), 'top-right');
 
       // Add markers for each resort
-      // console.log('ASDF ', currentResorts.length);
       resorts.forEach(resort => {
         const marker = new mapboxgl.Marker()
           .setLngLat([resort.longitude, resort.latitude])
           .setPopup(
-            new mapboxgl.Popup({ offset: 25 }) // add popups
-              .setText(resort.name)
+            new mapboxgl.Popup({ offset: 25 })
+              .setText(resort.name) // TODO info component
           )
           .addTo(mapRef.current!);
         markers.current.push(marker);
@@ -85,10 +91,9 @@ const Map = ({ resorts }: MapProps) => {
     } catch (error) {
       console.error('Error creating map:', error);
     }
-
-      // console.log('mapRef.current:', mapRef.current);
   });
 
+  // Update markers when resorts change
   useEffect(() => {
     if(!resorts || !mapRef.current) return;
     markers.current.forEach(marker => marker.remove());
@@ -116,7 +121,9 @@ const Map = ({ resorts }: MapProps) => {
         <p>Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}</p>
         <p>Displaying {(resorts).length} {(resorts).length === 1 ? 'result' : 'results'}</p>
       </div>
-      <div id="mapContainer" data-testid="mapContainer" className="map-container !h-full" ref={mapContainerRef} style={{ height: '100%', width: '100%' }} ></div>
+      <div id="mapContainer" data-testid="mapContainer" className="map-container !h-full" ref={mapContainerRef} style={{ height: '100%', width: '100%' }} >
+        {loading && <Spinner fullScreen={false}/>}
+      </div>
     </>
   );
 };

@@ -1,10 +1,14 @@
 //src/lib/resorts.ts
 import { BoundingBox, Resort } from "@/types/types";
-import { db } from "@vercel/postgres";
+import { VercelPoolClient, db } from "@vercel/postgres";
 
+let client: VercelPoolClient;
 
-// const env = process.env.NODE_ENV;
-const client = await db.connect();
+try {
+  client = await db.connect();
+} catch (error) {
+  console.error(error);
+}
 
 
 async function getResorts(query?: string, boundingBox?: BoundingBox): Promise<Resort[]> {
