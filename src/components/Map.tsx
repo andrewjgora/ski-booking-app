@@ -82,6 +82,7 @@ const Map = ({ resorts }: MapProps) => {
       // Add markers for each resort
       resorts.forEach(resort => {
         const popupNode = document.createElement('div');
+        popupNode.className = "w-80";
         const root = createRoot(popupNode);
         root.render(<ResortInfoPopup resort={resort} />);
         const marker = new mapboxgl.Marker()
@@ -106,12 +107,13 @@ const Map = ({ resorts }: MapProps) => {
     const newMarkers: mapboxgl.Marker[] = [];
     resorts.forEach(resort => {
       const popupNode = document.createElement('div');
+      popupNode.className = "w-80";
       const root = createRoot(popupNode);
       root.render(<ResortInfoPopup resort={resort} />);
       const marker = new mapboxgl.Marker()
         .setLngLat([resort.longitude, resort.latitude])
         .setPopup(
-          new mapboxgl.Popup({ offset: 15, className: "w-80 !max-w-80" })
+          new mapboxgl.Popup({ offset: 15, className: "w-80" })
             .setDOMContent(popupNode)
         )
         .addTo(mapRef.current!);

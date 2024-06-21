@@ -4,7 +4,7 @@ import { BoundingBox, Resort } from "@/types/types";
 const Map = dynamic(() => import('@/components/Map'), { ssr: false });
 
 
-export default async function Page({ searchParams }: { searchParams: { [key: string]: string | string[] | undefined }}) {
+export default async function Dashboard({ searchParams }: { searchParams: { [key: string]: string | string[] | undefined }}) {
   let resorts: Resort[] = [];
   console.log('page searchParams:', searchParams);
   const query = searchParams.q as string;
@@ -33,7 +33,7 @@ export default async function Page({ searchParams }: { searchParams: { [key: str
 
 
   return (
-    <main className="h-full flex flex-col items-center">
+    <main className="h-full flex flex-col items-center shadow-inner">
       <Map resorts={resorts}></Map>
     </main>
   );

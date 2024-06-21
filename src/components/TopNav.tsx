@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export function TopNav({}) {
   return (
-    <header className="sticky top-0 z-10 navbar bg-base-100">
+    <header className="sticky top-0 z-10 navbar bg-base-100 drop-shadow-md">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl border-zinc-300">
           <Image

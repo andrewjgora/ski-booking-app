@@ -14,7 +14,6 @@ export function Footer({}) {
         <h6 className="footer-title mb-1">Legal</h6>
         <Link className="link link-hover" href="/terms">Terms of Service</Link>
         <a className="link link-hover">Privacy Policy</a>
-        <a className="link link-hover">Cookie Policy</a>
         <a className="link link-hover">Disclaimer</a>
       </nav>
       <nav className="gap-y-0.5">

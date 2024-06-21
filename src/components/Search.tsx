@@ -1,11 +1,12 @@
 // src/components/SearchBar.js
 'use client';
 import React, { ChangeEvent, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 
 export const Search = ({...props}) => {
-  const [query, setQuery] = useState('');
+  const queryParam = useSearchParams().get('q')
+  const [query, setQuery] = useState(queryParam || '');
   const router = useRouter();
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -15,7 +16,7 @@ export const Search = ({...props}) => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!query) return;
-    router.push(query ? `/dashboard?q=${query}` : `/dashboard`);
+    router.push(`/dashboard?q=${query}`);
     console.log('searching for:', query);
   };
 
