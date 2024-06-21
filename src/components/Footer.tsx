@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 export function Footer({}) {
   return (
-    <footer className="footer p-5 bg-base-300 text-base-content z-0">
+    <footer className="footer p-5 bg-base text-base-content z-0">
       <nav className="gap-y-0.5">
         <h6 className="footer-title mb-1">Services</h6>
         <a className="link link-hover">Lift Tickets</a>
@@ -13,7 +13,7 @@ export function Footer({}) {
       <nav className="gap-y-0.5">
         <h6 className="footer-title mb-1">Legal</h6>
         <Link className="link link-hover" href="/terms">Terms of Service</Link>
-        <a className="link link-hover">Privacy Policy</a>
+        <Link className="link link-hover" href="/privacy">Privacy Policy</Link>
         <a className="link link-hover">Disclaimer</a>
       </nav>
       <nav className="gap-y-0.5">
