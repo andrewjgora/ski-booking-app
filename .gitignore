@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# db stuff
+/src/app/api/db/seed*
+/src/app/api/db/drop*
