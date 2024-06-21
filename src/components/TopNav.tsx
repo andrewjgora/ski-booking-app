@@ -6,10 +6,11 @@ export function TopNav({}) {
   return (
     <header className="sticky top-0 z-10 navbar bg-base-100">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">
+        <a className="btn btn-ghost text-xl border-zinc-300">
           <Image
             alt="Logo"
             src='/logo-transparent.png'
+            className='-mt-1 -ml-1'
             width={50}
             height={50}
           />

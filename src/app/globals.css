@@ -32,6 +32,8 @@ body {
   }
 }
 
+
+/* app styles */
 .mapboxgl-popup-content {
   color: black;
 }
