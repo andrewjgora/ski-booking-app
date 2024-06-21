@@ -14,7 +14,7 @@ export const Search = ({...props}) => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // handleSearch(query);
+    if (!query) return;
     router.push(query ? `/dashboard?q=${query}` : `/dashboard`);
     console.log('searching for:', query);
   };
