@@ -4,6 +4,7 @@ export interface Resort {
   name: string;
   location: string;
   description: string;
+  website: string;
   longitude: number;
   latitude: number;
 }

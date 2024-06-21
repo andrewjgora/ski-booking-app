@@ -5,6 +5,8 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { Resort } from '@/types/types';
 import Spinner from '@/components/Spinner';
+import { createRoot } from 'react-dom/client';
+import ResortInfoPopup from '@/components/ResortInfoPopup';
 
 const mapboxToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
 if(mapboxToken) mapboxgl.accessToken = mapboxToken;
@@ -79,11 +81,14 @@ const Map = ({ resorts }: MapProps) => {
 
       // Add markers for each resort
       resorts.forEach(resort => {
+        const popupNode = document.createElement('div');
+        const root = createRoot(popupNode);
+        root.render(<ResortInfoPopup resort={resort} />);
         const marker = new mapboxgl.Marker()
           .setLngLat([resort.longitude, resort.latitude])
           .setPopup(
-            new mapboxgl.Popup({ offset: 25 })
-              .setText(resort.name) // TODO info component
+            new mapboxgl.Popup({ offset: 15, className: "w-80 max-w-80" })
+              .setDOMContent(popupNode)
           )
           .addTo(mapRef.current!);
         markers.current.push(marker);
@@ -100,11 +105,14 @@ const Map = ({ resorts }: MapProps) => {
 
     const newMarkers: mapboxgl.Marker[] = [];
     resorts.forEach(resort => {
+      const popupNode = document.createElement('div');
+      const root = createRoot(popupNode);
+      root.render(<ResortInfoPopup resort={resort} />);
       const marker = new mapboxgl.Marker()
         .setLngLat([resort.longitude, resort.latitude])
         .setPopup(
-          new mapboxgl.Popup({ offset: 25 }) // add popups
-            .setText(resort.name)
+          new mapboxgl.Popup({ offset: 15, className: "w-80 !max-w-80" })
+            .setDOMContent(popupNode)
         )
         .addTo(mapRef.current!);
         newMarkers.push(marker);
