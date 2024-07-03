@@ -22,7 +22,7 @@ export default async function Dashboard({ searchParams }: { searchParams: { [key
       params.set('neLng', bounds.neCorner.longitude.toString());
       params.set('neLat', bounds.neCorner.latitude.toString());
     }
-    const url = new URL('http://localhost:3000/api/resorts');
+    const url = new URL(`${process.env.NEXT_PUBLIC_API_URL}/api/resorts`);
     url.search = params.toString();
     const response = await fetch(url.toString(), { cache: 'no-store' });
     resorts = await response.json();
