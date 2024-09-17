@@ -42,7 +42,7 @@ const Map = ({ resorts }: MapProps) => {
         setLng(-106.3781);
       }
     });
-  }, [resorts.length]);
+  }, [resorts]);
 
   // Initialize map
   useEffect(() => {
