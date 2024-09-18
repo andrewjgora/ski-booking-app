@@ -38,3 +38,7 @@ next-env.d.ts
 # db stuff
 /src/app/api/db/seed*
 /src/app/api/db/drop*
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

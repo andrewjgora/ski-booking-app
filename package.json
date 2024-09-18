@@ -10,6 +10,7 @@
     "start": "next start",
     "test": "jest",
     "test:watch": "jest --watch",
+    "test:e2e": "playwright test",
     "lint": "next lint"
   },
   "dependencies": {
@@ -24,6 +25,7 @@
     "react-map-gl": "^7.1.7"
   },
   "devDependencies": {
+    "@playwright/test": "^1.47.1",
     "@tailwindcss/typography": "^0.5.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.4.5",
