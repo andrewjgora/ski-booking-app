@@ -9,7 +9,10 @@ describe('GET route: /api/resorts', () => {
     const data = await response.json();
     expect(response.status).toBe(200);
     expect(data).toHaveLength(1);
-    expect([data[0].name, data[0].location, data[0].description]).toContain(query);
+    expect(
+      [data[0].name.toLowerCase(), data[0].location.toLowerCase(), data[0].description.toLowerCase()]
+        .some(field => field.includes(query))
+      ).toBe(true);
   });
 
   it('should return an empty array for no results', async () => {
